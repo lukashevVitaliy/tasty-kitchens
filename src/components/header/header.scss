@@ -1,0 +1,46 @@
+@import "../../styles/variables.scss";
+
+header {
+	min-height: 96px;
+	padding: 28px 0;
+	background: #f8fafc;
+	margin-bottom: 48px;
+	.header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&__logo {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			min-width: 240px;
+			img svg {
+				width: 49px;
+				height: 39px;
+				object-fit: cover;
+			}
+			span {
+				font-style: italic;
+				font-size: 24px;
+				line-height: 32px;
+				color: $color-active;
+			}
+		}
+		&__menu {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			min-width: 216px;
+		}
+		&__list {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			min-width: 111px;
+			&-link a {
+				line-height: 26px;
+				color: $main-color;
+			}
+		}
+	}
+}

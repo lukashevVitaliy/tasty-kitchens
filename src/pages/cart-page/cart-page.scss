@@ -1,0 +1,83 @@
+@import "../../styles/variables.scss";
+
+.cart-page {
+	&__wrap {
+		padding: 30px 48px 48px;
+		margin-bottom: 64px;
+	}
+	&__item {
+		display: grid;
+		grid-template-columns: 0.5fr 0.5fr repeat(2, 1fr);
+		grid-auto-rows: 1fr;
+		grid-gap: 24px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__title-item,
+	&__title-quantity,
+	&__title-prices {
+		font-weight: 500;
+		font-size: 20px;
+		letter-spacing: 0.2px;
+		color: #475569;
+		text-align: center;
+	}
+	&__title-item {
+		grid-column: 1/3;
+	}
+	&__title-quantity {
+		grid-column: 3/4;
+	}
+	&__title-prices {
+		grid-column: 4/5;
+	}
+	&__image {
+		max-width: 136px;
+		max-height: 100px;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 8px;
+		}
+	}
+	&__name {
+		display: flex;
+		align-items: center;
+		@extend %h4-title;
+	}
+	&__counter {
+		display: flex;
+		justify-content: center;
+	}
+	&__price {
+		color: $color-active;
+		text-align: center;
+	}
+	&__info {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 24px;
+		border-top: 1px dashed #cbd2d9;
+		margin: 30px 0;
+	}
+	&__text {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 32px;
+		color: #3e4c59;
+	}
+	&__total {
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 32px;
+		color: #3e4c59;
+	}
+
+	.container {
+		background: #f9fbfe;
+	}
+}

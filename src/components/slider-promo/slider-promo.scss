@@ -1,0 +1,68 @@
+@import "../../styles/variables.scss";
+
+.slider-promo {
+	margin-bottom: 64px;
+	&__image {
+		position: relative;
+		width: 100%;
+		min-height: 320px;
+		background: url("/resources/img/slider.jpg") center / cover no-repeat;
+		z-index: -1;
+	}
+	&__info {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		max-width: 346px;
+		min-height: 166px;
+		padding: 15px;
+	}
+	&__title {
+		@extend %h1-title;
+		color: #57221a;
+		margin-bottom: 8px;
+	}
+	&__desc {
+		font-weight: 500;
+		color: $white-color;
+		margin-bottom: 8px;
+	}
+	&__contacts {
+		display: flex;
+		img {
+			width: 24px;
+			height: 24px;
+			object-fit: cover;
+		}
+		span {
+			font-style: italic;
+			font-weight: 400;
+			color: $white-color;
+			margin-left: 8px;
+		}
+	}
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+	bottom: 74px;
+	left: 0;
+	width: 100%;
+}
+
+.swiper-pagination-bullet {
+	width: 12px;
+	height: 12px;
+	background: $white-color;
+	vertical-align: middle;
+}
+.swiper-pagination-bullet-active {
+	width: 18px;
+	height: 18px;
+	background: rgba(255, 255, 255, 0.8);
+}

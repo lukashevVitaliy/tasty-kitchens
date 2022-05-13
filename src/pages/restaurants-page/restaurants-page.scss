@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+
+.restaurants-page {
+	&__title {
+		@extend %h2-title;
+		padding-top: 64px;
+		margin-bottom: 8px;
+	}
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 24px;
+	}
+	&__subtitle {
+		font-weight: 500;
+		color: $grey-color;
+	}
+	&__line {
+		width: 100%;
+		height: 1px;
+		background: #cbd2d9;
+		margin-bottom: 48px;
+	}
+}

@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+
+.sort-panel {
+	position: relative;
+}
+
+.sort-panel::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -22px;
+	transform: translateY(-50%);
+	width: 24px;
+	height: 24px;
+	background: url("/resources/icons/sort_label.svg") center/cover no-repeat;
+}
+
+.custom-select__control.css-1s2u09g-control {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	border: none;
+	cursor: pointer;
+}
+
+.custom-select__indicator-separator.css-1okebmr-indicatorSeparator {
+	display: none;
+}

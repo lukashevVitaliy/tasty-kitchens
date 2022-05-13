@@ -1,0 +1,54 @@
+@import "../../styles/variables.scss";
+
+footer {
+	background: #0f172a;
+	.footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 480px;
+		min-height: 424px;
+		padding: 97px 0;
+		margin: 0 auto;
+		&__logo {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			img svg {
+				width: 49px;
+				height: 39px;
+				object-fit: cover;
+			}
+			span {
+				font-style: italic;
+				font-weight: 700;
+				font-size: 32px;
+				line-height: 48px;
+				color: $white-color;
+				margin-left: 16px;
+			}
+		}
+		&__info {
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 32px;
+			text-align: center;
+			color: $white-color;
+		}
+		&__social {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			&-item:not(:last-child) {
+				margin-right: 32px;
+			}
+			&-link svg {
+				width: 48px;
+				height: 48px;
+				object-fit: cover;
+				color: $white-color;
+			}
+		}
+	}
+}

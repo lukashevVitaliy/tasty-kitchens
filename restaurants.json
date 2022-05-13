@@ -1,0 +1,4576 @@
+{
+	"restaurants": [
+		{
+			"id": "20220101",
+			"name": "«Ginza»",
+			"image_url": "https://i.siteapi.org/bm1LuG80oIKAB3fqzctGE4NAZDM=/fit-in/1024x768/center/top/s2.siteapi.org/ec7672f1f20a43f/img/otlk9kxob40w8sgkcosw4gksgg40gc",
+			"location": "Санкт-Петербург: Аптекарский просп., 16Д (м. Петроградская, Горьковская, Выборгская)",
+			"cuisine": "Европейская, итальянская",
+			"total_reviews": 215,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 4500,
+			"opens_at": "12:00 AM",
+			"food_items": [
+				{
+					"name": "«ТАРТАР ИЗ КРАБА И АВОКАДО»",
+					"cost": 1990,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ginza/0031.jpg",
+					"id": "0031",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТАРТАР ИЗ ТУНЦА И АВОКАДО»",
+					"cost": 1590,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ginza/0032.jpg",
+					"id": "0032",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРПАЧЧО ИЗ ТОМАТОВ» С ЯЛТИНСКИМ ЛУКОМ",
+					"cost": 1290,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ginza/0033.jpg",
+					"id": "0033",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БУРРАТА» СО СПЕЛЫМИ ТОМАТАМИ И БАЗИЛИКОМ",
+					"cost": 1990,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ginza/0034.jpg",
+					"id": "0034",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АНТИПАСТИ»",
+					"cost": 2490,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ginza/0035.jpg",
+					"id": "0035",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "САЛАТ «С ОСЬМИНОГОМ, КАРТОФЕЛЕМ И ТОМАТАМИ ЧЕРРИ» ",
+					"cost": 2390,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/ginza/0036.jpg",
+					"id": "0036",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРЕЧЕСКИЙ» САЛАТ",
+					"cost": 890,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/ginza/0037.jpg",
+					"id": "0037",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "САЛАТ «СРЕДИЗЕМНОМОРСКИЙ С КРАБОМ И АРТИШОКАМИ»",
+					"cost": 2290,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/ginza/0038.jpg",
+					"id": "0038",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТЕЙК-САЛАТ» С РОСТБИФОМ",
+					"cost": 1590,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/ginza/0039.jpg",
+					"id": "0039",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОЛИВЬЕ С ЯЗЫКОМ»",
+					"cost": 690,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/ginza/0040.jpg",
+					"id": "0040",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "ЭСКАЛОП «ИЗ ФУА-ГРА С ЯГОДНЫМ СОУСОМ»",
+					"cost": 4290,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ginza/0041.jpg",
+					"id": "0041",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "ОЛАДЬИ «ИЗ ЦУКИНИ С ЛОСОСЕМ» ",
+					"cost": 990,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ginza/0042.jpg",
+					"id": "0042",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«УНАДЗЮ» (угорь на рисе)",
+					"cost": 1490,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ginza/0043.jpg",
+					"id": "0043",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "РИС «С КОКОСОВЫМ МОЛОКОМ И КУРИЦЕЙ»",
+					"cost": 890,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ginza/0044.jpg",
+					"id": "0044",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "КРЕВЕТКИ «С ЧЕСНОКОМ И ПЕТРУШКОЙ»",
+					"cost": 1190,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ginza/0045.jpg",
+					"id": "0045",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БОРЩ»",
+					"cost": 690,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/ginza/0046.jpg",
+					"id": "0046",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЩИ ЩАВЕЛЕВЫЕ»",
+					"cost": 590,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/ginza/0047.jpg",
+					"id": "0047",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«УХА»",
+					"cost": 790,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/ginza/0048.jpg",
+					"id": "0048",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАРЧО»",
+					"cost": 690,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/ginza/0049.jpg",
+					"id": "0049",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛАГМАН»",
+					"cost": 790,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/ginza/0050.jpg",
+					"id": "0050",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СПАГЕТТИ» С МОРЕПРОДУКТАМИ",
+					"cost": 1990,
+					"food_type": "ПАСТА / РИЗОТТО",
+					"image_url": "./src/resources/img/restaurants/ginza/0051.jpg",
+					"id": "0051",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАННЕЛЛОНИ» С ГОВЯЖЬИМИ ХВОСТАМИ",
+					"cost": 990,
+					"food_type": "ПАСТА / РИЗОТТО",
+					"image_url": "./src/resources/img/restaurants/ginza/0052.jpg",
+					"id": "0052",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЕННЕ» С ЛОСОСЕМ",
+					"cost": 1190,
+					"food_type": "ПАСТА / РИЗОТТО",
+					"image_url": "./src/resources/img/restaurants/ginza/0053.jpg",
+					"id": "0053",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТАЛЬЯТЕЛЛЕ» С МЯСНЫМ РАГУ",
+					"cost": 1200,
+					"food_type": "ПАСТА / РИЗОТТО",
+					"image_url": "./src/resources/img/restaurants/ginza/0054.jpg",
+					"id": "0054",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СИБАС» АКВА ПАЦЦА",
+					"cost": 1990,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/ginza/0055.jpg",
+					"id": "0055",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "ЛОБСТЕР «ПО-КАТАЛОНСКИ»",
+					"cost": 4200,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/ginza/0056.jpg",
+					"id": "0056",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ВАФУ» СТЕЙК",
+					"cost": 4590,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/ginza/0057.jpg",
+					"id": "0057",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "ГОВЯДИНА «ПО-СТРОГАНОВСКИ»",
+					"cost": 1190,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/ginza/0058.jpg",
+					"id": "0058",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЛОВ»",
+					"cost": 890,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/ginza/0059.jpg",
+					"id": "0059",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МАНТЫ»",
+					"cost": 590,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/ginza/0060.jpg",
+					"id": "0060",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220102",
+			"name": "«Katyusha»",
+			"image_url": "https://i.siteapi.org/ENXjG2fNNPjdIVBuKjGj5LSRHho=/fit-in/1024x768/center/top/s2.siteapi.org/ec7672f1f20a43f/img/1wyfz2ee9icggwksck40wgwsscgcg8",
+			"location": "Санкт-Петербург, Невский проспект, 22-24 (м. Гостиный двор, Невский Проспект)",
+			"cuisine": "Русская, традиционная",
+			"total_reviews": 150,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1500,
+			"opens_at": "10:00 AM",
+			"food_items": [
+				{
+					"name": "«ОЛИВЬЕ» С ТЕЛЯТИНОЙ",
+					"cost": 450,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0001.jpg",
+					"id": "0001",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ВИНЕГРЕТ» C АРОМАТНЫМ МАСЛОМ",
+					"cost": 350,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0002.jpg",
+					"id": "0002",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЕЛЬДЬ ПОД ШУБОЙ»",
+					"cost": 390,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0003.jpg",
+					"id": "0003",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЦЕЗАРЬ» С ФЕРМЕРСКИМ ЦЫПЛЕНКОМ",
+					"cost": 550,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0004.jpg",
+					"id": "0004",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РУКОЛА» С РАКОВЫМИ ШЕЙКАМИ, ЗЕЛЕНЫМ ЯБЛОКОМ И ЗАПРАВКОЙ КАРРИ",
+					"cost": 520,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0005.jpg",
+					"id": "0005",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МИМОЗА» САЛАТ",
+					"cost": 390,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0006.jpg",
+					"id": "0006",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОВОЩНОЙ САЛАТ» С ЯЙЦОМ ПАШОТ",
+					"cost": 390,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0007.jpg",
+					"id": "0007",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОВОЩНОЙ САЛАТ» С ЯЙЦОМ ПАШОТ",
+					"cost": 390,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0007.jpg",
+					"id": "0007",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СПЕЛЫЕ ТОМАТЫ» С ФЕРМЕРСКИМ СЫРОМ, БАЗИЛИКОМ И СОУСОМ ПЕСТО",
+					"cost": 550,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0008.jpg",
+					"id": "0008",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЕЛЬСКИЙ САЛАТ ИЗ СВЕЖИХ ФЕРМЕРСКИХ ОВОЩЕЙ» С ТЫКВЕННЫМ МАСЛОМ",
+					"cost": 350,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0009.jpg",
+					"id": "0009",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РУССКИЕ ЩИ» С КВАШЕНОЙ КАПУСТОЙ",
+					"cost": 420,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0010.jpg",
+					"id": "0010",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РАССОЛЬНИК» С ГОВЯДИНОЙ",
+					"cost": 390,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0011.jpg",
+					"id": "0011",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "УХА «РОСТОВСКАЯ»",
+					"cost": 390,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0012.jpg",
+					"id": "0012",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СУП ИЗ БЕЛЫХ ГРИБОВ»",
+					"cost": 360,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0013.jpg",
+					"id": "0013",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КУРИНЫЙ БУЛЬОН» С МЯСОМ ЦЫПЛЕНКА И ДОМАШНЕЙ ЛАПШОЙ",
+					"cost": 320,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0014.jpg",
+					"id": "0014",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЕЛЬМЕНИ ИЗ ТРЕХ ВИДОВ РЫБ» С ПОЛЬСКИМ СОУСОМ",
+					"cost": 660,
+					"food_type": "ДОМАШНЯЯ ЛЕПКА И БЛИНЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0015.jpg",
+					"id": "0015",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЕЛЬМЕНИ СИБИРСКИЕ» С МЯСОМ (СВИНИНА-ГОВЯДИНА)",
+					"cost": 450,
+					"food_type": "ДОМАШНЯЯ ЛЕПКА И БЛИНЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0016.jpg",
+					"id": "0016",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ВАРЕНИКИ» С КАРТОФЕЛЕМ",
+					"cost": 350,
+					"food_type": "ДОМАШНЯЯ ЛЕПКА И БЛИНЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0017.jpg",
+					"id": "0017",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ВАРЕНИКИ» С САДОВОЙ ВИШНЕЙ",
+					"cost": 390,
+					"food_type": "ДОМАШНЯЯ ЛЕПКА И БЛИНЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0018.jpg",
+					"id": "0018",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БЛИНЧИКИ» С ФЕРМЕРСКИМ ТВОРОГОМ И ИЗЮМОМ",
+					"cost": 450,
+					"food_type": "ДОМАШНЯЯ ЛЕПКА И БЛИНЫ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0019.jpg",
+					"id": "0019",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖЮЛЬЕН ИЗ ГРИБОВ» С ЦЫПЛЕНКОМ ПОД СЫРНОЙ КОРОЧКОЙ",
+					"cost": 550,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0020.jpg",
+					"id": "0020",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГОЛУБЦЫ» С РАКОВЫМИ ШЕЙКАМИ",
+					"cost": 690,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0021.jpg",
+					"id": "0021",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРТОФЕЛЬНЫЕ ДРАНИКИ»",
+					"cost": 420,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/katyusha/0022.jpg",
+					"id": "0022",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЦЫПЛЕНОК ТАБАКА» С ДОМАШНЕЙ АДЖИКОЙ",
+					"cost": 990,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/katyusha/0023.jpg",
+					"id": "0023",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РУБЛЕНЫЙ БИФШТЕКС» С ЖАРЕНЫМ КАРТОФЕЛЕМ",
+					"cost": 790,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/katyusha/0024.jpg",
+					"id": "0024",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КУРИНЫЕ КОЛБАСКИ» С ТУШЕНОЙ КАПУСТОЙ",
+					"cost": 620,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/katyusha/0025.jpg",
+					"id": "0025",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГОВЯДИНА ПО-СТРОГАНОВСКИ» С ЖАРЕНЫМ КАРТОФЕЛЕМ",
+					"cost": 990,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/katyusha/0026.jpg",
+					"id": "0026",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СВИНАЯ КОРЕЙКА НА РЕБРЫШКЕ ГРИЛЬ» С КАРТОФЕЛЕМ ФРИ",
+					"cost": 790,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/katyusha/0027.jpg",
+					"id": "0027",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОТЛЕТА ИЗ ЛОСЯ»",
+					"cost": 850,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/katyusha/0028.jpg",
+					"id": "0028",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОТЛЕТЫ ИЗ ТРЕСКИ»",
+					"cost": 690,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/katyusha/0029.jpg",
+					"id": "0029",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОТЛЕТЫ ДОМАШНИЕ» (СВИНИНА-ГОВЯДИНА)",
+					"cost": 650,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/katyusha/0030.jpg",
+					"id": "0030",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220103",
+			"name": "«Баклажан»",
+			"image_url": "https://i.siteapi.org/9tW8UokzZXZBz6Rq-ujCWLhVNB0=/fit-in/1024x768/center/top/s2.siteapi.org/ec7672f1f20a43f/img/faotfu2i5k0gw48swkcocook4wwck8",
+			"location": "Санкт-Петербург, м, Горьковская, Александровский парк 4/3)",
+			"cuisine": "Кавказская, грузинская",
+			"total_reviews": 223,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1800,
+			"opens_at": "11:00 AM",
+			"food_items": [
+				{
+					"name": "«ТАРТАР» ИЗ ЛОСОСЯ",
+					"cost": 819,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0061.jpg",
+					"id": "0061",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРПАЧЧО» ИЗ ГОВЯДИНЫ",
+					"cost": 649,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0062.jpg",
+					"id": "0062",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АССОРТИ» ИЗ ДОМАШНИХ СЫРОВ",
+					"cost": 629,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0063.jpg",
+					"id": "0063",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СВЕКОЛЬНАЯ ИКРА»",
+					"cost": 299,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0064.jpg",
+					"id": "0064",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОВОЩНОЙ САЛАТ ПО-ГРУЗИНСКИ» С ОРЕХАМИ",
+					"cost": 419,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0065.jpg",
+					"id": "0065",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТЕПЛЫЙ САЛАТ С ЛОСОСЕМ»",
+					"cost": 689,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0066.jpg",
+					"id": "0066",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРЕЧЕСКИЙ САЛАТ»",
+					"cost": 439,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0067.jpg",
+					"id": "0067",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "САЛАТ «С РУКОЛОЙ И СТРАЧАТЕЛЛОЙ»",
+					"cost": 779,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0068.jpg",
+					"id": "0068",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "САЛАТ «ТИЛ»",
+					"cost": 389,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0069.jpg",
+					"id": "0069",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАЧАПУРИ С БАКЛАЖАНАМИ»",
+					"cost": 519,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0070.jpg",
+					"id": "0070",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАЧАПУРИ С ГОРГОНЗОЛОЙ, ГРУШЕЙ И ГРЕЦКИМ ОРЕХОМ»",
+					"cost": 589,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0071.jpg",
+					"id": "0071",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖАРЕНЫЙ СЫР СУЛУГУНИ СО СВЕЖИМИ ТОМАТАМИ»",
+					"cost": 489,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0072.jpg",
+					"id": "0072",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПИРОГ С КАРТОФЕЛЕМ И БАРАНИНОЙ»",
+					"cost": 569,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0073.jpg",
+					"id": "0073",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОЛМА СО СВИНИНОЙ И ГОВЯДИНОЙ ",
+					"cost": 459,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0074.jpg",
+					"id": "0074",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАРЧО С ГОВЯДИНОЙ»",
+					"cost": 419,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0075.jpg",
+					"id": "0075",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТОМ ЯМ» С КРЕВЕТКАМИ",
+					"cost": 589,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0076.jpg",
+					"id": "0076",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧУЧВАРА-ШУРПА»",
+					"cost": 369,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0077.jpg",
+					"id": "0077",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БОРЩ С ЧЕСНОЧНЫМИ ПАМПУШКАМИ»",
+					"cost": 399,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/baklajan/0078.jpg",
+					"id": "0078",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КУЧМАЧИ»",
+					"cost": 559,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0079.jpg",
+					"id": "0079",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОДЖАХУРИ ИЗ СВИНИНЫ»",
+					"cost": 629,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0080.jpg",
+					"id": "0080",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЛОВ УЗБЕКСКИЙ»",
+					"cost": 599,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0081.jpg",
+					"id": "0081",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОВУРМА ЛАГМАН»",
+					"cost": 579,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0082.jpg",
+					"id": "0082",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОВУРМА ПО-ФЕРГАНСКИ»",
+					"cost": 719,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0083.jpg",
+					"id": "0083",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОЛЯНКА ПО-КУТАИССКИ ИЗ СВИНИНЫ»",
+					"cost": 539,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0084.jpg",
+					"id": "0084",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЛОЕНЫЕ БАКЛАЖАНЫ С МЯСОМ»",
+					"cost": 549,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0085.jpg",
+					"id": "0085",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОМАШНИЕ КОТЛЕТЫ ОТ ПЕТРОВНЫ»",
+					"cost": 529,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0086.jpg",
+					"id": "0086",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОТЛЕТЫ ИЗ ИНДЕЙКИ С ОВОЩАМИ»",
+					"cost": 529,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0087.jpg",
+					"id": "0087",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БЕФСТРОГАНОВ С ПЮРЕ»",
+					"cost": 679,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0088.jpg",
+					"id": "0088",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧКМЕРУЛИ»",
+					"cost": 829,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0089.jpg",
+					"id": "0089",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧАХОХБИЛИ ИЗ ЦЫПЛЕНКА»",
+					"cost": 459,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/baklajan/0090.jpg",
+					"id": "0090",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220104",
+			"name": "«Наша Дача»",
+			"image_url": "https://i.siteapi.org/3isfHMr0CTyMp4iZG8Mugm8BI14=/fit-in/1024x768/center/top/s2.siteapi.org/ec7672f1f20a43f/img/eypoizfytrsw0wwkc88oc408ogss0k",
+			"location": "Санкт-Петербург, Приморское ш., 448 (посёлок Репино)",
+			"cuisine": "Европейская, авторская",
+			"total_reviews": 112,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 2500,
+			"opens_at": "12:00 AM",
+			"food_items": [
+				{
+					"name": "«ЯЙЦА БЕНЕДИКТ» С ЛОСОСЕМ",
+					"cost": 790,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0091.jpg",
+					"id": "0091",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЯЙЦА БЕНЕДИКТ» С БЕКОНОМ",
+					"cost": 490,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0092.jpg",
+					"id": "0092",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КРУАССАН С МАСЛОМ И ВАРЕНЬЕМ»",
+					"cost": 290,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0093.jpg",
+					"id": "0093",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШАКШУКА С ФАСОЛЬЮ И ЗЕЛЕНЬЮ»",
+					"cost": 450,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0094.jpg",
+					"id": "0094",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГЛАЗУНЬЯ»",
+					"cost": 250,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0095.jpg",
+					"id": "0095",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "САЛАТ «НИСУАЗ»",
+					"cost": 1390,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0096.jpg",
+					"id": "0096",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ХРУСТЯЩИМИ БАКЛАЖАНАМИ»",
+					"cost": 790,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0097.jpg",
+					"id": "0097",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ ГРЕЧЕСКИЙ»",
+					"cost": 790,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0098.jpg",
+					"id": "0098",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТЕПЛЫЙ САЛАТ С РОСТБИФОМ И КИНОА»",
+					"cost": 950,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0099.jpg",
+					"id": "0099",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С КРАБОМ И АВОКАДО»",
+					"cost": 1990,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0100.jpg",
+					"id": "0100",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТРЕСКА ПОД МАРИНАДОМ»",
+					"cost": 590,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0101.jpg",
+					"id": "0101",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПОДКОПЧЕННЫЙ ШПИК С ЧЕСНОКОМ И БОРОДИНСКИМ ХЛЕБОМ»",
+					"cost": 390,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0102.jpg",
+					"id": "0102",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЕЧЕНЬ ТРЕСКИ С ЯЙЦОМ И МАРИНОВАННЫМ КРАСНЫМ ЛУКОМ»",
+					"cost": 890,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0103.jpg",
+					"id": "0103",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БУРРАТА С ТОМАТАМИ»",
+					"cost": 990,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0104.jpg",
+					"id": "0104",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛОСОСЬ ШЕФ-ПОСОЛА»",
+					"cost": 990,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0105.jpg",
+					"id": "0105",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАЧАПУРИ ПО-МЕГРЕЛЬСКИ»",
+					"cost": 650,
+					"food_type": "ХАЧАПУРИ И ПИРОГИ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0106.jpg",
+					"id": "0106",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СУП МИСО С ЛОСОСЕМ»",
+					"cost": 490,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0107.jpg",
+					"id": "0107",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОМАШНИЙ БОРЩ С ЧЕСНОКОМ»",
+					"cost": 450,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0108.jpg",
+					"id": "0108",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СУП БУЗАРА С МОРЕПРОДУКТАМИ»",
+					"cost": 990,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0109.jpg",
+					"id": "0109",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СУП С ПОДОСИНОВИКАМИ»",
+					"cost": 390,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0110.jpg",
+					"id": "0110",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРЕЧНЕВАЯ КАША С ТУШЕНОЙ ДИКОЙ УТКОЙ»",
+					"cost": 1050,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0111.jpg",
+					"id": "0111",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОСЬМИНОГ С КАРТОФЕЛЬНЫМ ПЮРЕ»",
+					"cost": 1490,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0112.jpg",
+					"id": "0112",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОРЮШКА ЖАРЕНАЯ С ТОЛЧЕНЫМ КАРТОФЕЛЕМ»",
+					"cost": 1190,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0113.jpg",
+					"id": "0113",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГОЛУБЦЫ С РАКОВЫМИ ШЕЙКАМИ»",
+					"cost": 990,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0114.jpg",
+					"id": "0114",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОТЕ ИЗ МИДИЙ»",
+					"cost": 990,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0115.jpg",
+					"id": "0115",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГОРЯЧИЙ РОЛЛ С УГРЕМ»",
+					"cost": 1090,
+					"food_type": "ЯПОНСКАЯ КУХНЯ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0116.jpg",
+					"id": "0116",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФИЛАДЕЛЬФИЯ» С ЛОСОСЕМ",
+					"cost": 890,
+					"food_type": "ЯПОНСКАЯ КУХНЯ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0117.jpg",
+					"id": "0117",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РОЛЛ С ЛОСОСЕМ»",
+					"cost": 590,
+					"food_type": "ЯПОНСКАЯ КУХНЯ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0118.jpg",
+					"id": "0118",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАЛИФОРНИЯ» С ЛОСОСЕМ",
+					"cost": 1390,
+					"food_type": "ЯПОНСКАЯ КУХНЯ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0119.jpg",
+					"id": "0119",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ВЕГАН-РОЛЛ С ОВОЩАМИ И ЛИСТЬЯМИ САЛАТА»",
+					"cost": 450,
+					"food_type": "ЯПОНСКАЯ КУХНЯ",
+					"image_url": "./src/resources/img/restaurants/nasha_dacha/0120.jpg",
+					"id": "0120",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220105",
+			"name": "«Бахрома»",
+			"image_url": "https://i.siteapi.org/kshv0kqFW-S9jTOqVdkP4svrOKI=/fit-in/1024x768/center/top/ec7672f1f20a43f.s2.siteapi.org/img/1fkfisrqsf9cw4c40o48cgs0kg8wkg",
+			"location": "Санкт-Петербург, Приморское ш., 448",
+			"cuisine": "Грузинская, европейская",
+			"total_reviews": 233,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1800,
+			"opens_at": "12:00 AM",
+			"food_items": [
+				{
+					"name": "«ПАНКЕЙКИ СО ШПИНАТОМ И ЙОГУРТОВОЙ ЗАПРАВКОЙ»",
+					"cost": 250,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0121.jpg",
+					"id": "0121",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "ШОКОЛАДНЫЕ ПАНКЕЙКИ С ВИШНЁВЫМ КОМПОТЕ И ШОКОЛАДНЫМ СОУСОМ",
+					"cost": 250,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0122.jpg",
+					"id": "0122",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БРИОШЬ СО СКРЭМБЛОМ И КРЕВЕТКАМИ В СОУСЕ ТЕРИЯКИ»",
+					"cost": 350,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0123.jpg",
+					"id": "0123",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОМЛЕТ С КРЕМОМ ИЗ АВОКАДО И ГОВЯЖЬЕЙ ГРУДИНКОЙ",
+					"cost": 270,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0124.jpg",
+					"id": "0124",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОМЛЕТ С КРЕМОМ ИЗ АВОКАДО И ЛОСОСЕМ СЛАБОЙ СОЛИ»",
+					"cost": 350,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0125.jpg",
+					"id": "0125",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БУРРАТА С ТОМАТАМИ»",
+					"cost": 550,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0126.jpg",
+					"id": "0126",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РУЛЕТИКИ ИЗ БАКЛАЖАНОВ С НАЧИНКАМИ АССОРТИ»",
+					"cost": 510,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0127.jpg",
+					"id": "0127",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РУЛЕТИКИ ИЗ БОЛГАРСКОГО ПЕРЦА С СЫРНОЙ НАЧИНКОЙ И СОУСОМ РОМЕСКО»",
+					"cost": 350,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0128.jpg",
+					"id": "0128",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РУЛЕТ ИЗ ЦЫПЛЁНКА С ГРИБАМИ И БРОККОЛИ»",
+					"cost": 170,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0129.jpg",
+					"id": "0129",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МЯСНАЯ ТАРЕЛКА»",
+					"cost": 730,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0130.jpg",
+					"id": "0130",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАКЛАЖАНЫ В УСТРИЧНОМ СОУСЕ С КРЕМОМ ФЕТА»",
+					"cost": 290,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0131.jpg",
+					"id": "0131",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОЛМА»",
+					"cost": 590,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0132.jpg",
+					"id": "0132",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАКЛАЖАН С ТОМАТАМИ И СЫРОМ СУЛУГУНИ»",
+					"cost": 350,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0133.jpg",
+					"id": "0133",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖАРЕНЫЕ ЦУКИНИ С ЧЕСНОКОМ»",
+					"cost": 230,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0134.jpg",
+					"id": "0134",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОЛАДУШКИ ИЗ КАБАЧКОВ»",
+					"cost": 230,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0135.jpg",
+					"id": "0135",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КРЕМ-СУП С БЕЛЫМИ ГРИБАМИ»",
+					"cost": 320,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0136.jpg",
+					"id": "0136",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОМАШНИЙ СУПЧИК»",
+					"cost": 270,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0137.jpg",
+					"id": "0137",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БОРЩ С ГОВЯДИНОЙ»",
+					"cost": 310,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0138.jpg",
+					"id": "0138",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАРЧО»",
+					"cost": 370,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0139.jpg",
+					"id": "0139",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СБОРНАЯ СОЛЯНКА, ПРИГОТОВЛЕННАЯ НА УГЛЯХ»",
+					"cost": 420,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0140.jpg",
+					"id": "0140",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГИГАНТСКАЯ КОТЛЕТА ИЗ ИНДЕЙКИ»",
+					"cost": 590,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/bahroma/0141.jpg",
+					"id": "0141",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОТЛЕТА ПО-КИЕВСКИ С КАРТОФЕЛЬНЫМ ПЮРЕ И ПИКАНТНЫМИ ОГУРЦАМИ»",
+					"cost": 350,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/bahroma/0142.jpg",
+					"id": "0142",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГОВЯЖИЙ БИФШТЕКС С КИНОА И ГРИБАМИ»",
+					"cost": 650,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/bahroma/0143.jpg",
+					"id": "0143",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МЯСНЫЕ КОТЛЕТЫ В СОУСЕ БАВЕТ С КАРТОФЕЛЬНЫМ ПЮРЕ»",
+					"cost": 350,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/bahroma/0144.jpg",
+					"id": "0144",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАРАНЬИ РЁБРЫШКИ В АЗИАТСКОМ СТИЛЕ»",
+					"cost": 550,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/bahroma/0145.jpg",
+					"id": "0145",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛЮЛЯ-КЕБАБ ИЗ ГОВЯДИНЫ И СВИНИНЫ»",
+					"cost": 470,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0146.jpg",
+					"id": "0146",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛЮЛЯ-КЕБАБ ИЗ ЦЫПЛЁНКА»",
+					"cost": 390,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0147.jpg",
+					"id": "0147",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШАШЛЫК ИЗ ГРУДКИ ЦЫПЛЁНКА»",
+					"cost": 410,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0148.jpg",
+					"id": "0148",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРУДКА ЦЫПЛЁНКА, ФАРШИРОВАННАЯ СЫРОМ И ШПИНАТОМ»",
+					"cost": 450,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0149.jpg",
+					"id": "0149",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШАШЛЫК ИЗ БЕДРА ЦЫПЛЁНКА»",
+					"cost": 450,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/bahroma/0.jpg",
+					"id": "0",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220106",
+			"name": "«Сулико»",
+			"image_url": "https://i.siteapi.org/AhBZPxyEpebVVEDFzEAdSMN2LOo=/fit-in/330x0/top/filters:format(webp)/ec7672f1f20a43f.s2.siteapi.org/img/55o9or1aols8wckw888wcsggo8w4so",
+			"location": "Санкт-Петербург, Казанская ул., 6",
+			"cuisine": "Грузинская, кавказская",
+			"total_reviews": 116,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1100,
+			"opens_at": "11:00 AM",
+			"food_items": [
+				{
+					"name": "«ХИНКАЛИ»",
+					"cost": 250,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/suliko/0151.jpg",
+					"id": "0151",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГЕБЖАЛИЯ»",
+					"cost": 350,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/suliko/0152.jpg",
+					"id": "0152",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАКЛАЖАНЫ С ОРЕХАМИ»",
+					"cost": 350,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/suliko/0153.jpg",
+					"id": "0153",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПХАЛИ ИЗ МОРКОВИ»",
+					"cost": 320,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/suliko/0154.jpg",
+					"id": "0154",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПХАЛИ ИЗ СТРУЧКОВОЙ ФАСОЛИ»",
+					"cost": 320,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/suliko/0155.jpg",
+					"id": "0155",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ «ГРАЦИЯ»»",
+					"cost": 350,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/suliko/0156.jpg",
+					"id": "0156",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "САЛАТ «РЕНЕССАНС»",
+					"cost": 360,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/suliko/0157.jpg",
+					"id": "0157",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ РЫБНЫЙ С СЕМГОЙ ШЕФ ПОСОЛА»",
+					"cost": 450,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/suliko/0158.jpg",
+					"id": "0158",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЦЕЗАРЬ» С КУРИЦЕЙ",
+					"cost": 370,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/suliko/0159.jpg",
+					"id": "0159",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТЁПЛЫЙ ПРИЁМ»",
+					"cost": 380,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/suliko/0160.jpg",
+					"id": "0160",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧВИШТАРИ»",
+					"cost": 290,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/suliko/0161.jpg",
+					"id": "0161",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АДЖАПСАНДАЛ»",
+					"cost": 300,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/suliko/0162.jpg",
+					"id": "0162",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖУЛЬЕН»",
+					"cost": 290,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/suliko/0163.jpg",
+					"id": "0163",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФАРШИРОВАННЫЕ ОВОЩИ С ГРИБАМИ И СЫРОМ»",
+					"cost": 370,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/suliko/0164.jpg",
+					"id": "0164",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ВАРЕНИКИ С СЫРОМ»",
+					"cost": 350,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/suliko/0165.jpg",
+					"id": "0165",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЦОМГАМОЦЛИЛИ ХАЧАПУРИ С ТАРХУНОМ И СЫРОМ»",
+					"cost": 390,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/suliko/0166.jpg",
+					"id": "0166",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КУБДАРИ»",
+					"cost": 370,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/suliko/0167.jpg",
+					"id": "0167",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАЧАПУРИ ПО-ЦАРСКИ»",
+					"cost": 550,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/suliko/0168.jpg",
+					"id": "0168",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СУП-ХАРЧО»",
+					"cost": 350,
+					"food_type": "ПЕРВЫЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0169.jpg",
+					"id": "0169",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПРОЛИНЬЕЗ»",
+					"cost": 360,
+					"food_type": "ПЕРВЫЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0170.jpg",
+					"id": "0170",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОЛЯНКА МЯСНАЯ СБОРНАЯ»",
+					"cost": 350,
+					"food_type": "ПЕРВЫЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0171.jpg",
+					"id": "0171",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧИХИРТМА»",
+					"cost": 340,
+					"food_type": "ПЕРВЫЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0172.jpg",
+					"id": "0172",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШУРПА»",
+					"cost": 360,
+					"food_type": "ПЕРВЫЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0173.jpg",
+					"id": "0173",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАРЧО ОРЕХОВОЕ»",
+					"cost": 460,
+					"food_type": "ГОРЯЧИЕ ГРУЗИНСКИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0174.jpg",
+					"id": "0174",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧКМЕРУЛИ ИЗ КУРИЦЫ»",
+					"cost": 390,
+					"food_type": "ГОРЯЧИЕ ГРУЗИНСКИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0175.jpg",
+					"id": "0175",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧКМЕРУЛИ ИЗ ЦЫПЛЕНКА»",
+					"cost": 590,
+					"food_type": "ГОРЯЧИЕ ГРУЗИНСКИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0176.jpg",
+					"id": "0176",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАРАНИНА ПО-ДОМАШНЕМУ»",
+					"cost": 670,
+					"food_type": "ГОРЯЧИЕ ГРУЗИНСКИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0177.jpg",
+					"id": "0177",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОДЖАХУРИ ПО-МЕГРЕЛЬСКИ»",
+					"cost": 450,
+					"food_type": "ГОРЯЧИЕ ГРУЗИНСКИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0178.jpg",
+					"id": "0178",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГОВЯДИНА ПО-ГРУЗИНСКИ»",
+					"cost": 450,
+					"food_type": "ГОРЯЧИЕ ГРУЗИНСКИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0179.jpg",
+					"id": "0179",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КУРИЦА С АНАНАСАМИ И СЫРОМ ПАРМЕЗАН ПОД СОУСОМ»",
+					"cost": 470,
+					"food_type": "ГОРЯЧИЕ ГРУЗИНСКИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/suliko/0180.jpg",
+					"id": "0180",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220107",
+			"name": "«Du Nord 1834»",
+			"image_url": "https://i.siteapi.org/d3r3sFVr-k_zu9lBxr2MIrTy2JA=/fit-in/330x0/top/filters:format(webp)/ec7672f1f20a43f.s2.siteapi.org/img/op3yfp9wn1w8gc0gwk8k4kkg4soo0g",
+			"location": "Санкт-Петербург, Лиговский просп., 41/83",
+			"cuisine": "Европейская, французская",
+			"total_reviews": 240,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1200,
+			"opens_at": "09:00 AM",
+			"food_items": [
+				{
+					"name": "«TRIO DE PÂTÉS»",
+					"cost": 430,
+					"food_type": "ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0181.jpg",
+					"id": "0181",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«RILLETTES DE CANARD»",
+					"cost": 430,
+					"food_type": "ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0182.jpg",
+					"id": "0182",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«RAVIOLIS DE BETTERAVE AU FROMAGE DE CHÈVRE»",
+					"cost": 390,
+					"food_type": "ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0183.jpg",
+					"id": "0183",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«TARTARE DE BETTERAVES GRILLÉES»",
+					"cost": 390,
+					"food_type": "ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0184.jpg",
+					"id": "0184",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«CRÈME BRÛLÉE AU FOIE GRAS»",
+					"cost": 400,
+					"food_type": "ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0185.jpg",
+					"id": "0185",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«SOUPE À L'OIGNON»",
+					"cost": 500,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0186.jpg",
+					"id": "0186",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«SOUPE MARSEILLAISE DE POISSON»",
+					"cost": 850,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0187.jpg",
+					"id": "0187",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«SOUPE AUX TOMATES»",
+					"cost": 370,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0188.jpg",
+					"id": "0188",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СONSOMMÉ DE POULET»",
+					"cost": 370,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0189.jpg",
+					"id": "0189",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«SOUPE CRÉMEUSE AUX CHAMPIGNONS ET POMME DE TERRE»",
+					"cost": 400,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0190.jpg",
+					"id": "0190",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«PÂTES AUX CHAMPIGNONS»",
+					"cost": 470,
+					"food_type": "ДОМАШНЯЯ ПАСТА И РИЗОТТО",
+					"image_url": "./src/resources/img/restaurants/dunord/0191.jpg",
+					"id": "0191",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«PAPPARDELLE AUX ŒUFS AVEC POITRINE FUMÉE»",
+					"cost": 500,
+					"food_type": "ДОМАШНЯЯ ПАСТА И РИЗОТТО",
+					"image_url": "./src/resources/img/restaurants/dunord/0192.jpg",
+					"id": "0192",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«PÂTES À LA VIANDE HACHÉE CRÉMEUSE»",
+					"cost": 500,
+					"food_type": "ДОМАШНЯЯ ПАСТА И РИЗОТТО",
+					"image_url": "./src/resources/img/restaurants/dunord/0193.jpg",
+					"id": "0193",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«RISOTTO À LA CITROUILLE FUMÉE»",
+					"cost": 450,
+					"food_type": "ДОМАШНЯЯ ПАСТА И РИЗОТТО",
+					"image_url": "./src/resources/img/restaurants/dunord/0194.jpg",
+					"id": "0194",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«MOULES AU VIN BLANC ET BOUILLON DE POULET»",
+					"cost": 800,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0195.jpg",
+					"id": "0195",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«FILET DE CABILLAUD»",
+					"cost": 800,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0196.jpg",
+					"id": "0196",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«FILET DE BAR»",
+					"cost": 1600,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0197.jpg",
+					"id": "0197",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«CÔTELETTES DE LAPIN»",
+					"cost": 540,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0198.jpg",
+					"id": "0198",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«PORC MOULIN ROUGE»",
+					"cost": 550,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0199.jpg",
+					"id": "0199",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«BURGER DE BŒUF»",
+					"cost": 710,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0200.jpg",
+					"id": "0200",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«STEAK DE BOUCHER»",
+					"cost": 1200,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0201.jpg",
+					"id": "0201",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«BROCHET DE VEAU À LA DEMI-GLACE»",
+					"cost": 980,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0202.jpg",
+					"id": "0202",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«CASSOULET DE DINDE»",
+					"cost": 400,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0203.jpg",
+					"id": "0203",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«DINDE PANÉE HACHÉE»",
+					"cost": 490,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0204.jpg",
+					"id": "0204",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«CUISSE DE CANARD CUITE»",
+					"cost": 820,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0205.jpg",
+					"id": "0205",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ROULEAUX DE CHOU À LA DINDE»",
+					"cost": 850,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0206.jpg",
+					"id": "0206",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«MAGRET DE CANARD»",
+					"cost": 820,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/dunord/0207.jpg",
+					"id": "0207",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КУРИНЫЙ СУП»",
+					"cost": 203,
+					"food_type": "ОБЕДЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0209.jpg",
+					"id": "0209",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЫРНЫЙ СУП»",
+					"cost": 149,
+					"food_type": "ОБЕДЫ",
+					"image_url": "./src/resources/img/restaurants/dunord/0210.jpg",
+					"id": "0210",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220108",
+			"name": "«Ферма»",
+			"image_url": "https://i.siteapi.org/6iBUN8fFXzVG-pLlIZCSmJxKIuw=/fit-in/330x0/top/filters:format(webp)/ec7672f1f20a43f.s2.siteapi.org/img/hpzfy2o742okws0osgsogg8wcgocsc",
+			"location": "Санкт-Петербург, Лиговский просп., 41/83",
+			"cuisine": "Eвропейская, русская",
+			"total_reviews": 110,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1800,
+			"opens_at": "11:00 AM",
+			"food_items": [
+				{
+					"name": "«ОВОЩНАЯ КОРЗИНА»",
+					"cost": 560,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0211.jpg",
+					"id": "0211",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФЕРМЕРСКИЕ СОЛЕНЬЯ»",
+					"cost": 440,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0212.jpg",
+					"id": "0212",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛИСИЧКИ СОБСТВЕННОГО ПОСОЛА»",
+					"cost": 570,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0213.jpg",
+					"id": "0213",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОЛЕНЫЕ ГРУЗДИ СО СМЕТАНОЙ»",
+					"cost": 760,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0214.jpg",
+					"id": "0214",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЗЕЛЕНЫЙ САЛАТ»",
+					"cost": 570,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0215.jpg",
+					"id": "0215",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРПАЧЧО ИЗ ПЕЧЕНОГО БАКЛАЖАНА »",
+					"cost": 430,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0216.jpg",
+					"id": "0216",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ ИЗ ЖАРЕНЫХ БАКЛАЖАН»",
+					"cost": 610,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0217.jpg",
+					"id": "0217",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ВИНЕГРЕТ С ЛИСИЧКАМИ»",
+					"cost": 430,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0.jpg",
+					"id": "0",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ПЕЧЕНОЙ ТЫКВОЙ И СВЕКЛОЙ И ГРЕЧЕСКИМ СЫРОМ»",
+					"cost": 570,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0219.jpg",
+					"id": "0219",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОМАШНИЙ САЛАТ»",
+					"cost": 530,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0220.jpg",
+					"id": "0220",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БУРРАТА С ТОМАТНОЙ САЛЬСОЙ НА ФОКАЧЧЕ»",
+					"cost": 820,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0221.jpg",
+					"id": "0221",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТАР-ТАР ИЗ АВОКАДО»",
+					"cost": 540,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0222.jpg",
+					"id": "0222",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ТЕПЛЫМ КРАБОМ»",
+					"cost": 1450,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0223.jpg",
+					"id": "0223",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТИГРОВЫЕ КРЕВЕТКИ»",
+					"cost": 790,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0224.jpg",
+					"id": "0224",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РОМЕЙН С СОУСОМ ЦЕЗАРЬ И КРЕВЕТКАМИ ГРИЛЬ»",
+					"cost": 850,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0225.jpg",
+					"id": "0225",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЗАЛИВНОЕ ИЗ КРАБА»",
+					"cost": 920,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0226.jpg",
+					"id": "0226",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРПАЧЧО ИЗ ЛОСОСЯ»",
+					"cost": 1100,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0227.jpg",
+					"id": "0227",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РЫБНАЯ ТАРЕЛКА»",
+					"cost": 1430,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0228.jpg",
+					"id": "0228",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ЛОСОСЕМ ХОЛОДНОГО КОПЧЕНИЯ И КРЕМ-СЫРОМ»",
+					"cost": 780,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0229.jpg",
+					"id": "0229",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЕЛЬДЬ С ДЫМКОМ ПРЯНОГО ПОСОЛА»",
+					"cost": 485,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230.jpg",
+					"id": "0230",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОМАШНИЕ СОЛЕНЬЯ ПО СТАРИННОМУ РЕЦЕПТУ»",
+					"cost": 490,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230-1.jpg",
+					"id": "0230-1",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖАРЕНЫЙ СУЛУГУНИ»",
+					"cost": 590,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230-2.jpg",
+					"id": "0230-2",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАПУСТА С ТРЮФЕЛЬНЫМ МУССОМ»",
+					"cost": 650,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230-3.jpg",
+					"id": "0230-3",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРПАЧЧО ИЗ ГОВЯДИНЫ»",
+					"cost": 690,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230-4.jpg",
+					"id": "0230-4",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРПАЧЧО ИЗ ЛОСОСЯ»",
+					"cost": 780,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230-5.jpg",
+					"id": "0230-5",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРПАЧЧО ИЗ ОСЬМИНОГА»",
+					"cost": 990,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230-6.jpg",
+					"id": "0230-6",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛОСОСЬ В ЗЕЛЕНИ»",
+					"cost": 650,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230-7.jpg",
+					"id": "0230-7",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МЯСНОЕ АССОРТИ»",
+					"cost": 1500,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230-8.jpg",
+					"id": "0230-8",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПАШТЕТ C БРИОШЬЮ»",
+					"cost": 550,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230-9.jpg",
+					"id": "0230-9",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЦИВИ С КРАБОМ»",
+					"cost": 780,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/ferma/0230-10.jpg",
+					"id": "0230-10",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220109",
+			"name": "«Бегемот»",
+			"image_url": "https://i.siteapi.org/fkRn3XSWi9gyGeEux0tfBdLsRWE=/fit-in/1024x768/center/top/s2.siteapi.org/ec7672f1f20a43f/img/55eeaa5ymy88sg040kcg4wgooo8skk",
+			"location": "Санкт-Петербург, ул. Садовая, 12 (м. Гостиный двор, Невский Проспект)",
+			"cuisine": "Европейская, французская",
+			"total_reviews": 243,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 3000,
+			"opens_at": "15:00 AM",
+			"food_items": [
+				{
+					"name": "«САЛАТ ИЗ СЕМГИ ГОРЯЧЕГО КОПЧЕНИЯ »",
+					"cost": 810,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0231.jpg",
+					"id": "0231",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БРУСКЕТТА С АВОКАДО, ЛОСОСЕМ, ЯЙЦОМ ПАШОТ И СОУСОМ ПЕСТО»",
+					"cost": 650,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0.jpg",
+					"id": "0",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТАР ТАР ИЗ ТУНЦА С АВОКАДО»",
+					"cost": 740,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0233.jpg",
+					"id": "0233",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТАР-ТАР ИЗ ЛОСОСЯ С АВОКАДО»",
+					"cost": 850,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0234.jpg",
+					"id": "0234",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ХРУСТЯЩИМ ЦЫПЛЕНКОМ»",
+					"cost": 605,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0235.jpg",
+					"id": "0235",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТЕПЛЫЙ САЛАТ С КУРИНОЙ ПЕЧЕНЬЮ И ОВОЩАМИ»",
+					"cost": 610,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0236.jpg",
+					"id": "0236",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С СЫРОКОПЧЕНОЙ УТКОЙ, ХУРМОЙ И СТРАЧАТЕЛЛОЙ»",
+					"cost": 610,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0237.jpg",
+					"id": "0237",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ИНДЕЙКА С СОУСОМ ТОННАТО»",
+					"cost": 610,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0238.jpg",
+					"id": "0238",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "ТРАДИЦИОННЫЙ «ОЛИВЬЕ»",
+					"cost": 480,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0239.jpg",
+					"id": "0239",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РОМЕЙН С СОУСОМ ЦЕЗАРЬ И КОПЧЕНОЙ ГРУДКОЙ ИНДЕЙКИ»",
+					"cost": 690,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0240.jpg",
+					"id": "0240",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТАР ТАР ИЗ ГОВЯДИНЫ С КАРТОФЕЛЕМ ФРИ, С АРОМАТОМ ТРЮФЕЛЯ»",
+					"cost": 820,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0241.jpg",
+					"id": "0241",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МЯСНАЯ ТАРЕЛКА ИЗ НАШЕЙ КОПТИЛЬНИ»",
+					"cost": 1050,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0242.jpg",
+					"id": "0242",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРПАЧЧО ИЗ ГОВЯДИНЫ»",
+					"cost": 730,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0243.jpg",
+					"id": "0243",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ЯЗЫКОМ»",
+					"cost": 620,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0244.jpg",
+					"id": "0244",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С КОПЧЕНОЙ ГОВЯДИНОЙ И ГРУЗДЯМИ»",
+					"cost": 615,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0245.jpg",
+					"id": "0245",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЯЗЫК КОПЧЕНЫЙ С ХРЕНОМ»",
+					"cost": 640,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0246.jpg",
+					"id": "0246",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АССОРТИ САЛО»",
+					"cost": 430,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0247.jpg",
+					"id": "0247",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФОРШМАК»",
+					"cost": 510,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0248.jpg",
+					"id": "0248",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТУДЕНЬ»",
+					"cost": 480,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0249.jpg",
+					"id": "0249",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПАШТЕТ ИЗ КУРИНОЙ ПЕЧЕНИ»",
+					"cost": 520,
+					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0250.jpg",
+					"id": "0250",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«УХА НА СЛИВКАХ С СУДАКОМ И ЛОСОСЕМ»",
+					"cost": 690,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/begemot/0251.jpg",
+					"id": "0251",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БУЛЬОН С МЯСОМ ЦЫПЛЕНКА»",
+					"cost": 420,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/begemot/0252.jpg",
+					"id": "0252",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СУП ИЗ МИДИЙ»",
+					"cost": 540,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/begemot/0253.jpg",
+					"id": "0253",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТОМАТНЫЙ СУП С БАРАНИНОЙ»",
+					"cost": 510,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/begemot/0254.jpg",
+					"id": "0254",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПОХЛЕБКА ИЗ БЕЛЫХ ГРИБОВ»",
+					"cost": 530,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/begemot/0255.jpg",
+					"id": "0255",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФЕРМЕРСКИЙ БОРЩ»",
+					"cost": 460,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/begemot/0256.jpg",
+					"id": "0256",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОЛЯНКА НА КРЕПКОМ БУЛЬОНЕ»",
+					"cost": 460,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/begemot/0257.jpg",
+					"id": "0257",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РАВИОЛИ С ТИГРОВЫМИ КРЕВЕТКАМИ»",
+					"cost": 740,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0258.jpg",
+					"id": "0258",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ВАРЕНИКИ С КАРТОШКОЙ И БЕКОНОМ»",
+					"cost": 540,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0259.jpg",
+					"id": "0259",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЕЛЬМЕНИ»",
+					"cost": 560,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/begemot/0260.jpg",
+					"id": "0260",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220110",
+			"name": "«Babyshka»",
+			"image_url": "https://i.siteapi.org/vVBTOWsOHmDo7mZBNtxX494lRik=/fit-in/1024x768/center/top/s2.siteapi.org/ec7672f1f20a43f/img/nh83bd4qgxcoco444c44s0okok80cs",
+			"location": "Санкт-Петербург, Набережная Канала Грибоедова, 36",
+			"cuisine": "Домашняя, европейская",
+			"total_reviews": 130,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 2000,
+			"opens_at": "12:00 AM",
+			"food_items": [
+				{
+					"name": "«СПАГЕТТИ «КАРБОНАРА» »",
+					"cost": 680,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0261.jpg",
+					"id": "0261",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТАЛЬЯТЕЛЛЕ С ИНДЕЙКОЙ»",
+					"cost": 610,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0262.jpg",
+					"id": "0262",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТАЛЬЯТЕЛЛЕ С УТИНЫМИ ЖЕЛУДКАМИ»",
+					"cost": 670,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0263.jpg",
+					"id": "0263",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПАСТА С ТИГРОВЫМИ КРЕВЕТКАМИ»",
+					"cost": 920,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0264.jpg",
+					"id": "0264",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СПАГЕТТИ ПЕСТО С КРАБОМ»",
+					"cost": 1200,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0265.jpg",
+					"id": "0265",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРЕЧНЕВАЯ КАША»",
+					"cost": 460,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0266.jpg",
+					"id": "0266",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОЛАДЬИ ИЗ КАБАЧКОВ»",
+					"cost": 730,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0267.jpg",
+					"id": "0267",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАША ИЗ ЦВЕТНОЙ КАПУСТЫ С РАКОВЫМИ ШЕЙКАМИ»",
+					"cost": 820,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0268.jpg",
+					"id": "0268",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАКЛАЖАНЫ, ЗАПЕЧЕННЫЕ С ТОМАТАМИ»",
+					"cost": 650,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0269.jpg",
+					"id": "0269",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОМЛЕТ ИЗ ТРЕХ ЯИЦ СО СЛИВКАМИ»",
+					"cost": 360,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0270.jpg",
+					"id": "0270",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖАРЕННАЯ В ПЕЧИ УТКА»",
+					"cost": 1710,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0271.jpg",
+					"id": "0271",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АССОРТИ МОРЕПРОДУКТОВ»",
+					"cost": 6100,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0272.jpg",
+					"id": "0272",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФИЛЕ ЛОСОСЯ ГРИЛЬ»",
+					"cost": 1250,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0273.jpg",
+					"id": "0273",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОТЛЕТКИ ИЗ СУДАКА С ПЮРЕ»",
+					"cost": 850,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0274.jpg",
+					"id": "0274",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТРЕСКА В СОУСЕ ИЗ ТИГРОВЫХ КРЕВЕТОК»",
+					"cost": 1010,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0275.jpg",
+					"id": "0275",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТЕЙК ИЗ ПАЛТУСА»",
+					"cost": 970,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0276.jpg",
+					"id": "0276",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТОМЛЕНАЯ ОЛЕНИНА, С ВЕШЕНКАМИ И ПОЛБОЙ»",
+					"cost": 870,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0277.jpg",
+					"id": "0277",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БЫЧИЙ ХВОСТ С ПЕЧЕНЫМ КАРТОФЕЛЕМ»",
+					"cost": 1180,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0278.jpg",
+					"id": "0278",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОТЛЕТКИ ИЗ ОЛЕНЯ»",
+					"cost": 870,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0279.jpg",
+					"id": "0279",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БЕФСТРОГАНОВ ИЗ ГОВЯДИНЫ»",
+					"cost": 980,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0280.jpg",
+					"id": "0280",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖАРЕНЫЙ БАКЛАЖАН»",
+					"cost": 580,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0281.jpg",
+					"id": "0281",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТЕЛЯЧЬИ ЩЕЧКИ С КАРТОФЕЛЬНОЙ ШАРЛОТКОЙ»",
+					"cost": 1160,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0282.jpg",
+					"id": "0282",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОКОРОК ЯГНЕНКА »",
+					"cost": 3650,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0283.jpg",
+					"id": "0283",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОТЛЕТА ИЗ ЯГНЕНКА»",
+					"cost": 870,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0284.jpg",
+					"id": "0284",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЦЫПЛЕНОК КОРНИШОН»",
+					"cost": 910,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0285.jpg",
+					"id": "0285",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«УТИНАЯ ГРУДКА С ГРУШЕЙ В КАРАМЕЛИ»",
+					"cost": 1050,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/babyshka/0286.jpg",
+					"id": "0286",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТЕЙК РИБАЙ»",
+					"cost": 2970,
+					"food_type": "ГРИЛЬ И КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0287.jpg",
+					"id": "0287",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФОРЕЛЬ КАРЕЛЬСКАЯ»",
+					"cost": 350,
+					"food_type": "ГРИЛЬ И КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0288.jpg",
+					"id": "0288",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОРАДА»",
+					"cost": 370,
+					"food_type": "ГРИЛЬ И КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0289.jpg",
+					"id": "0289",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СИБАС»",
+					"cost": 290,
+					"food_type": "ГРИЛЬ И КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/babyshka/0290.jpg",
+					"id": "0290",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220111",
+			"name": "«Бричмула»",
+			"image_url": "https://i.siteapi.org/Xq1-R67UHNW7fH0Xnn1awfOHLfY=/fit-in/1024x768/center/top/ec7672f1f20a43f.s2.siteapi.org/img/ljqyh8krwn40kk8g0kkk0cg8g484ss",
+			"location": "Санкт-Петербург, Комендантский пр, 13, к. 1",
+			"cuisine": "Eвропейская, кавказская",
+			"total_reviews": 231,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1300,
+			"opens_at": "10:00 AM",
+			"food_items": [
+				{
+					"name": "«КРЕВЕТКИ ТИГРОВЫЕ»",
+					"cost": 570,
+					"food_type": "ГРИЛЬ И КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0291.jpg",
+					"id": "0291",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТЕЙК ИЗ ИНДЕЙКИ»",
+					"cost": 870,
+					"food_type": "ГРИЛЬ И КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0292.jpg",
+					"id": "0292",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТЕЙК ИЗ ТЕЛЯТИНЫ»",
+					"cost": 1320,
+					"food_type": "ГРИЛЬ И КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0293.jpg",
+					"id": "0293",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СВИНИНА ГРИЛЬ НА КОСТИ»",
+					"cost": 930,
+					"food_type": "ГРИЛЬ И КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0294.jpg",
+					"id": "0294",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТЕЙК ИЗ ГОВЯДИНЫ»",
+					"cost": 1320,
+					"food_type": "ГРИЛЬ И КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0295.jpg",
+					"id": "0295",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТОЛСТЫЙ КРАЙ ТРАВЯНОГО ОТКОРМА»",
+					"cost": 1470,
+					"food_type": "ГРИЛЬ И КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0296.jpg",
+					"id": "0296",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРЕ БАРАШКА»",
+					"cost": 1660,
+					"food_type": "ДОПОЛНЕНИЯ К БЛЮДУ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0297.jpg",
+					"id": "0297",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОВОЩИ ГРИЛЬ»",
+					"cost": 390,
+					"food_type": "ДОПОЛНЕНИЯ К БЛЮДУ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0298.jpg",
+					"id": "0298",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРТОФЕЛЬНОЕ ПЮРЕ»",
+					"cost": 230,
+					"food_type": "ДОПОЛНЕНИЯ К БЛЮДУ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0299.jpg",
+					"id": "0299",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШТРУДЕЛЬ»",
+					"cost": 210,
+					"food_type": "ДОПОЛНЕНИЯ К БЛЮДУ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0300.jpg",
+					"id": "0300",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПИРОЖКИ»",
+					"cost": 60,
+					"food_type": "ДОПОЛНЕНИЯ К БЛЮДУ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0301.jpg",
+					"id": "0301",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРТОФЕЛЬ ЖАРЕНЫЙ С БЕЛЫМИ ГРИБАМИ»",
+					"cost": 390,
+					"food_type": "ДОПОЛНЕНИЯ К БЛЮДУ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0302.jpg",
+					"id": "0302",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРТОФЕЛЬНАЯ ШАРЛОТКА ЗАПЕЧЕННАЯ С ПАРМЕЗАНОМ»",
+					"cost": 350,
+					"food_type": "ДОПОЛНЕНИЯ К БЛЮДУ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0303.jpg",
+					"id": "0303",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СПАРЖА НА ПАРУ»",
+					"cost": 750,
+					"food_type": "ДОПОЛНЕНИЯ К БЛЮДУ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0304.jpg",
+					"id": "0304",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЗАВАРНЫЕ БУЛОЧКИ С КРЕМОМ ШАНТИЛЬИ»",
+					"cost": 320,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0305.jpg",
+					"id": "0305",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФИРМЕННЫЙ ЧИЗКЕЙК»",
+					"cost": 430,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0306.jpg",
+					"id": "0306",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДЕСЕРТ «ПАВЛОВА»»",
+					"cost": 330,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0307.jpg",
+					"id": "0307",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МЕДОВИК»",
+					"cost": 350,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0308.jpg",
+					"id": "0308",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "ПИРОЖНОЕ «ЗАЯЦ»",
+					"cost": 320,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0309.jpg",
+					"id": "0309",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЫРНИКИ»",
+					"cost": 410,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0310.jpg",
+					"id": "0310",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОРЕХОВО-КАРАМЕЛЬНОЕ»",
+					"cost": 320,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0311.jpg",
+					"id": "0",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПИРОЖНОЕ КАРТОШКА »",
+					"cost": 420,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0312.jpg",
+					"id": "0312",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МАЛИНОВЫЙ РУЛЕТ»",
+					"cost": 430,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0313.jpg",
+					"id": "0313",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТРУБОЧКА»",
+					"cost": 340,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0314.jpg",
+					"id": "0314",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "ТОРТ «НАПОЛЕОН»",
+					"cost": 320,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0315.jpg",
+					"id": "0315",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЭКЛЕР»",
+					"cost": 310,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0316.jpg",
+					"id": "0316",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДЕСЕРТ ОБЛЕПИХОВО-ЯБЛОЧНЫЙ»",
+					"cost": 380,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0317.jpg",
+					"id": "0317",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СМЕТАННИК С ВИШНЕЙ»",
+					"cost": 390,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0318.jpg",
+					"id": "0318",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БЛИНЧИКИ ФЛАМБЕ»",
+					"cost": 490,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0319.jpg",
+					"id": "0319",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МАКОВЫЙ ТОРТ»",
+					"cost": 390,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/brichmula/0320.jpg",
+					"id": "0320",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220112",
+			"name": "«Ель»",
+			"image_url": "https://i.siteapi.org/rEbHSY2KSZDqLG2rOvsjDeCGAKg=/fit-in/1024x768/center/top/ec7672f1f20a43f.s2.siteapi.org/img/gsyo16eyu08ogkck48swgkwkw80k8o",
+			"location": "Санкт-Петербург, Приморское ш., 640А, (п. Серово)",
+			"cuisine": "Европейская, итальянская",
+			"total_reviews": 133,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 2100,
+			"opens_at": "12:00 AM",
+			"food_items": [
+				{
+					"name": "«БАНАНОВЫЙ КЕЙК»",
+					"cost": 190,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/el/0321.jpg",
+					"id": "0",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДРАНИК С ТУШЁНОЙ ГОВЯДИНОЙ И ЯЙЦОМ»",
+					"cost": 280,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/el/0322.jpg",
+					"id": "0322",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БЛИНЫ С ТАРТАРОМ ИЗ ЛОСОСЯ»",
+					"cost": 350,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/el/0323.jpg",
+					"id": "0323",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЫРНИКИ С СОУСОМ ИЗ СГУЩЁННОГО МОЛОКА»",
+					"cost": 320,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/el/0324.jpg",
+					"id": "0324",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БРИОШЬ С ЛОСОСЕМ, ГУАКАМОЛЕ, ЯЙЦОМ ПАШОТ И СЫРНЫМ МУССОМ»",
+					"cost": 350,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/el/0325.jpg",
+					"id": "0325",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛАНЧ БЕЛЬГИЙСКИЙ»",
+					"cost": 370,
+					"food_type": "БИЗНЕС ЛАНЧИ",
+					"image_url": "./src/resources/img/restaurants/el/0326.jpg",
+					"id": "0326",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛАНЧ БОЛГАРСКИЙ»",
+					"cost": 290,
+					"food_type": "БИЗНЕС ЛАНЧИ",
+					"image_url": "./src/resources/img/restaurants/el/0327.jpg",
+					"id": "0327",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛАНЧ ВЕНГЕРСКИЙ»",
+					"cost": 350,
+					"food_type": "БИЗНЕС ЛАНЧИ",
+					"image_url": "./src/resources/img/restaurants/el/0328.jpg",
+					"id": "0328",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛАНЧ КУРИНЫЙ»",
+					"cost": 450,
+					"food_type": "БИЗНЕС ЛАНЧИ",
+					"image_url": "./src/resources/img/restaurants/el/0329.jpg",
+					"id": "0329",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛАНЧ БАХРОМА»",
+					"cost": 490,
+					"food_type": "БИЗНЕС ЛАНЧИ",
+					"image_url": "./src/resources/img/restaurants/el/0330.jpg",
+					"id": "0330",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РЫБНАЯ ТАРЕЛКА»",
+					"cost": 950,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0331.jpg",
+					"id": "0331",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАЛУМИ НА ГРИЛЕ С ТОМАТАМИ ЧЕРРИ»",
+					"cost": 550,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0332.jpg",
+					"id": "0332",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОЛИВЬЕ С ЛОСОСЕМ ХОЛОДНОГО КОПЧЕНИЯ»",
+					"cost": 390,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0333.jpg",
+					"id": "0333",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТЁПЛЫЙ САЛАТ С ГОВЯДИНОЙ И ОРЕХОВОЙ ЗАПРАВКОЙ»",
+					"cost": 490,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0334.jpg",
+					"id": "0334",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ ЯХНА-ТИЛ»",
+					"cost": 350,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0335.jpg",
+					"id": "0335",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РОМЕН-САЛАТ С АВОКАДО И ЖАРЕНЫМ ЦЫПЛЁНКОМ В КИСЛО-СЛАДКОМ СОУСЕ»",
+					"cost": 370,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0336.jpg",
+					"id": "0336",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ЛОСОСЕМ ХОЛОДНОГО КОПЧЕНИЯ И ОРЕХОВОЙ ЗАПРАВКОЙ»",
+					"cost": 590,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0337.jpg",
+					"id": "0337",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАБАГАНУШ С ДОМАШНИМ БАГЕТОМ»",
+					"cost": 190,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0338.jpg",
+					"id": "0338",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АДЖАПСАНДАЛ»",
+					"cost": 190,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0339.jpg",
+					"id": "0339",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЦИВИ ИЗ ЦЫПЛЁНКА ПО-ГРУЗИНСКИ»",
+					"cost": 390,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0340.jpg",
+					"id": "0340",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЫР СУЛУГУНИ КОПЧЁНЫЙ»",
+					"cost": 230,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0341.jpg",
+					"id": "0341",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЫР СУЛУГУНИ»",
+					"cost": 230,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0342.jpg",
+					"id": "0342",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЫР ДОМАШНИЙ»",
+					"cost": 230,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0343.jpg",
+					"id": "0343",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЕЛЬДЬ ПОД ШУБОЙ»",
+					"cost": 250,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0344.jpg",
+					"id": "0344",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЕЛЬДЬ С КАРТОФЕЛЕМ»",
+					"cost": 260,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0345.jpg",
+					"id": "0345",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РУЛЕТИКИ ИЗ БАКЛАЖАНОВ С СЫРНОЙ НАЧИНКОЙ»",
+					"cost": 270,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0346.jpg",
+					"id": "0346 ",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАХОР»",
+					"cost": 260,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0347.jpg",
+					"id": "0347",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОЛИВЬЕ С ЦЫПЛЕНКОМ»",
+					"cost": 260,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0348.jpg",
+					"id": "0348",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЕРБСКАЯ ЗАКУСКА С БАГЕТОМ»",
+					"cost": 270,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0349.jpg",
+					"id": "0349",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ АЧИК-ЧУЧУК»",
+					"cost": 270,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/el/0350.jpg",
+					"id": "0350",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220113",
+			"name": "«Блок»",
+			"image_url": "https://i.siteapi.org/MhRhgp9Gt7c2eTRew0E2bxiR3XY=/fit-in/1024x768/center/top/ec7672f1f20a43f.s2.siteapi.org/img/adt3gznvth4wg4sgw808sgcow4gow0",
+			"location": "Санкт-Петербург, Потёмкинская ул., 4",
+			"cuisine": "Eвропейская, украинская",
+			"total_reviews": 92,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 2800,
+			"opens_at": "12:00 AM",
+			"food_items": [
+				{
+					"name": "«САЛАТ ОВОЩНОЙ ПО-ГРУЗИНСКИ»",
+					"cost": 290,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0351.jpg",
+					"id": "0351",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РУЛЕТИКИ ИЗ БАКЛАЖАНОВ С НАЧИНКОЙ ИЗ ОРЕХОВОЙ ПАСТЫ»",
+					"cost": 270,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0352.jpg",
+					"id": "0352",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОМАШНИЕ СОЛЕНЬЯ»",
+					"cost": 350,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0353.jpg",
+					"id": "0353",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АССОРТИ СЫРОВ»",
+					"cost": 360,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0354.jpg",
+					"id": "0354",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТЁПЛЫЙ САЛАТ С КУРИНОЙ ПЕЧЕНЬЮ И КАРТОФЕЛЕМ»",
+					"cost": 370,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0355.jpg",
+					"id": "0355",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОТВАРНОЙ ГОВЯЖИЙ ЯЗЫК»",
+					"cost": 370,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0356.jpg",
+					"id": "0356",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРЕЧЕСКИЙ САЛАТ»",
+					"cost": 390,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0357.jpg",
+					"id": "0357",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПОКЕ С ЦЫПЛЁНКОМ НА МАНГАЛЕ»",
+					"cost": 370,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0358.jpg",
+					"id": "0358",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ГОВЯДИНОЙ В АЗИАТСКОМ СТИЛЕ»",
+					"cost": 420,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0359.jpg",
+					"id": "0359",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОЧНАЯ КУРИЦА С БАКЛАЖАНОМ ШАХРИСТАН»",
+					"cost": 410,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0360.jpg",
+					"id": "0360",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ЖАРЕНЫМИ КАЛЬМАРАМИ»",
+					"cost": 450,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0361.jpg",
+					"id": "0361",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ЦЫПЛЁНКОМ И КОПЧЁНЫМ СЫРОМ»",
+					"cost": 420,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0362.jpg",
+					"id": "0362",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СВЕЖИЕ ОВОЩИ»",
+					"cost": 430,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0363.jpg",
+					"id": "0363",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЦЕЗАРЬ С ЦЫПЛЁНКОМ НА МАНГАЛЕ»",
+					"cost": 390,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0364.jpg",
+					"id": "0364",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПОКЕ С ЛОСОСЕМ»",
+					"cost": 490,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0365.jpg",
+					"id": "0365",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАПРЕЗЕ»",
+					"cost": 480,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0366.jpg",
+					"id": "0366",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С КРЕВЕТКАМИ И СТРАЧАТЕЛЛОЙ»",
+					"cost": 550,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0367.jpg",
+					"id": "0367",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЦЕЗАРЬ С КРЕВЕТКАМИ»",
+					"cost": 550,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0368.jpg",
+					"id": "0368",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АССОРТИ СЫРОВ»",
+					"cost": 570,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0369.jpg",
+					"id": "0369",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С КРЕВЕТКАМИ И АВОКАДО»",
+					"cost": 630,
+					"food_type": "ХОЛОДНЫЕ ЗАКУСКИ И САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/block/0370.jpg",
+					"id": "0370",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДРАНИКИ С ГРИБНЫМ МУССОМ»",
+					"cost": 250,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/block/0371.jpg",
+					"id": "0371",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГЁДЗА С ЦЫПЛЁНКОМ»",
+					"cost": 290,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/block/0372.jpg",
+					"id": "0372",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГЁДЗА С КРЕВЕТКОЙ»",
+					"cost": 350,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/block/0373.jpg",
+					"id": "0373",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОЛМА»",
+					"cost": 390,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/block/0374.jpg",
+					"id": "0374",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРИБЫ С СЫРОМ СУЛУГУНИ»",
+					"cost": 420,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/block/0375.jpg",
+					"id": "0375",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖАРЕНЫЕ ГРИБЫ С ЯЗЫКОМ»",
+					"cost": 450,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/block/0376.jpg",
+					"id": "0376",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КРЕВЕТКИ, ЖАРЕННЫЕ С ЧЕСНОКОМ И ЗЕЛЕНЬЮ»",
+					"cost": 590,
+					"food_type": "ГОРЯЧИЕ ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/block/0377.jpg",
+					"id": "0377",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛЕПЁШКА УЗБЕКСКАЯ»",
+					"cost": 90,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/block/0378.jpg",
+					"id": "0378",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШОТИ»",
+					"cost": 90,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/block/0379.jpg",
+					"id": "0379",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САМСА С БАРАНИНОЙ»",
+					"cost": 150,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/block/0380.jpg",
+					"id": "0380",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220114",
+			"name": "«Harvest»",
+			"image_url": "https://i.siteapi.org/c86fOkEYRWFpXidt0dx9B2abilw=/fit-in/330x0/top/filters:format(webp)/ec7672f1f20a43f.s2.siteapi.org/img/zujbkel714gsgsc0wg0wckw8c4ckgw",
+			"location": "Санкт-Петербург, просп. Добролюбова, 11",
+			"cuisine": "Eвропейская, авторская",
+			"total_reviews": 70,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1600,
+			"opens_at": "12:00 AM",
+			"food_items": [
+				{
+					"name": "«САМСА С ТЕЛЯТИНОЙ»",
+					"cost": 170,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0381.jpg",
+					"id": "0381",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧЕБУРЕК С ЦЫПЛЁНКОМ»",
+					"cost": 170,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0382.jpg",
+					"id": "0382",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КУТАБЫ С СЫРОМ И ЗЕЛЕНЬЮ»",
+					"cost": 170,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0383.jpg",
+					"id": "0383",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАЧАПУРИ MINI ПО-МЕГРЕЛЬСКИ»",
+					"cost": 180,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0384.jpg",
+					"id": "0384",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАЧАПУРИ MINI ПО-ИМЕРЕТИНСКИ»",
+					"cost": 240,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0385.jpg",
+					"id": "0385",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КУТАБЫ С БАРАНИНОЙ»",
+					"cost": 250,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0386.jpg",
+					"id": "0386",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧЕБУРЕК С БАРАНИНОЙ»",
+					"cost": 290,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0387.jpg",
+					"id": "0387",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧЕБУРЕК С ТЕЛЯТИНОЙ»",
+					"cost": 290,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0388.jpg",
+					"id": "0388",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОСЕТИНСКИЙ ПИРОГ»",
+					"cost": 360,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0389.jpg",
+					"id": "0389",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАЧАПУРИ ПО-АДЖАРСКИ»",
+					"cost": 450,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0390.jpg",
+					"id": "0390",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАЧАПУРИ STANDART ПО-МЕГРЕЛЬСКИ»",
+					"cost": 490,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0391.jpg",
+					"id": "0391",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАЧАПУРИ STANDART ПО-ИМЕРЕТИНСКИ»",
+					"cost": 490,
+					"food_type": "ВЫПЕЧКА",
+					"image_url": "./src/resources/img/restaurants/harvest/0392.jpg",
+					"id": "0392",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТЫКВЕННЫЙ КРЕМ-СУП»",
+					"cost": 390,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/harvest/0393.jpg",
+					"id": "0393",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СЛИВОЧНАЯ УХА С БЕЛОЙ РЫБОЙ И ТОМАТАМИ»",
+					"cost": 420,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/harvest/0394.jpg",
+					"id": "0394",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛАГМАН»",
+					"cost": 490,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/harvest/0395.jpg",
+					"id": "0395",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТОМ ЯМ С МОРЕПРОДУКТАМИ»",
+					"cost": 550,
+					"food_type": "СУПЫ",
+					"image_url": "./src/resources/img/restaurants/harvest/0396.jpg",
+					"id": "0396",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БЕФСТРОГАНОВ ИЗ МРАМОРНОЙ ГОВЯДИНЫ С БЕЛЫМИ ГРИБАМИ»",
+					"cost": 490,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0397.jpg",
+					"id": "0397",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГОЛУБЦЫ С ЦЫПЛЁНКОМ В СЛИВОЧНОМ СОУСЕ С ЗЕЛЁНЫМ ГОРОШКОМ»",
+					"cost": 290,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0398.jpg",
+					"id": "0398",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЦЫПЛЁНОК ТАБАКА»",
+					"cost": 590,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0399.jpg",
+					"id": "0399",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПАППАРДЕЛЛЕ С БУРАТТОЙ В СОУСЕ НАПОЛИ»",
+					"cost": 490,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0400.jpg",
+					"id": "0400",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПАППАРДЕЛЛЕ С БЕЛЫМИ ГРИБАМИ»",
+					"cost": 420,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0401.jpg",
+					"id": "0401",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПАСТА С ЛОСОСЕМ ХОЛОДНОГО КОПЧЕНИЯ И ЭДАМАМЕ»",
+					"cost": 690,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0402.jpg",
+					"id": "0402",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПАСТА БОЛОНЬЕЗЕ»",
+					"cost": 290,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0403.jpg",
+					"id": "0403",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТЕЙК ИЗ ТРЕСКИ С ГРИБАМИ И СЛИВОЧНО-ЛУКОВЫМ СОУСОМ»",
+					"cost": 550,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0404.jpg",
+					"id": "0404",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КРАБОВЫЕ КОТЛЕТЫ С ОВОЩАМИ В КИСЛО-СЛАДКОМ СОУСЕ»",
+					"cost": 350,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0405.jpg",
+					"id": "0405",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТЕЙК ИЗ ЛОСОСЯ»",
+					"cost": 850,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0406.jpg",
+					"id": "0406",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАМБАЛА С КИНОА И СОУСОМ СЛИВОЧНЫЙ РОМЕСКО»",
+					"cost": 490,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0407.jpg",
+					"id": "0407",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РЫБНЫЕ КОТЛЕТЫ С БЕБИ-КАРТОФЕЛЕМ И СЫРНЫМ СОУСОМ»",
+					"cost": 480,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0408.jpg",
+					"id": "0408",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МОРСКОЙ ОКУНЬ С ЗЕЛЁНЫМ БУЛГУРОМ И СЫРНЫМ СОУСОМ»",
+					"cost": 490,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0409.jpg",
+					"id": "0409",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧАКАПУЛИ»",
+					"cost": 470,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/harvest/0410.jpg",
+					"id": "0410",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220115",
+			"name": "«Maximilian»",
+			"image_url": "https://i.siteapi.org/19fRYmlFJelN-JLoi19r6HZabLo=/fit-in/330x0/top/filters:format(webp)/ec7672f1f20a43f.s2.siteapi.org/img/f1iyvj7w49c8s8wccoosc00gwogog4",
+			"location": "Санкт-Петербург, ул. Савушкина, 141",
+			"cuisine": "Eвропейская, русская",
+			"total_reviews": 65,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1500,
+			"opens_at": "12:00 AM",
+			"food_items": [
+				{
+					"name": "«ЯГНЁНОК ПО-ТБИЛИССКИ»",
+					"cost": 390,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0411.jpg",
+					"id": "0411",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРТОФЕЛЬ ФРИ»",
+					"cost": 150,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0412.jpg",
+					"id": "0412",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШАШЛЫК ИЗ ОВОЩЕЙ»",
+					"cost": 190,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0413.jpg",
+					"id": "0413",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МИНИ МАНТЫ ПО-АНДИЖАНСКИ С КАРТОФЕЛЕМ»",
+					"cost": 220,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0414.jpg",
+					"id": "0414",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРИБЫ ШАМПИНЬОНЫ НА МАНГАЛЕ»",
+					"cost": 240,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0415.jpg",
+					"id": "0415",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МАНТЫ С ЦЫПЛЁНКОМ НА ПАРУ»",
+					"cost": 250,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0416.jpg",
+					"id": "0416",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖАРЕНЫЙ КАРТОФЕЛЬ С ГРИБАМИ»",
+					"cost": 270,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0417.jpg",
+					"id": "0417",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РАВИОЛИ ИЗ ИНДЕЙКИ»",
+					"cost": 350,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0418.jpg",
+					"id": "0418",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТЕКЛЯННАЯ ЛАПША С ГОВЯЖЬИМИ ЩЁЧКАМИ»",
+					"cost": 370,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0419.jpg",
+					"id": "0419",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОТЛЕТЫ ИЗ ЦЫПЛЁНКА»",
+					"cost": 380,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0420.jpg",
+					"id": "0420",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«УДОН С ЦЫПЛЁНКОМ И ОВОЩАМИ»",
+					"cost": 390,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0421.jpg",
+					"id": "0421",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШАВЕРМА»",
+					"cost": 390,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0422.jpg",
+					"id": "0422",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧАХОХБИЛИ ИЗ ЦЫПЛЁНКА»",
+					"cost": 390,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0423.jpg",
+					"id": "0423",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МАНТЫ С БАРАНИНОЙ НА ПАРУ»",
+					"cost": 420,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0424.jpg",
+					"id": "0424",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МАНТЫ С ТЕЛЯТИНОЙ НА ПАРУ»",
+					"cost": 450,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0425.jpg",
+					"id": "0425",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЛОВ ПО-БУХАРСКИ»",
+					"cost": 450,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0426.jpg",
+					"id": "0426",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЛОВ УЗБЕКСКИЙ»",
+					"cost": 540,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0427.jpg",
+					"id": "0427",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЛОВ ЧАЙХАНСКИЙ»",
+					"cost": 540,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0428.jpg",
+					"id": "0428",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГОВЯЖИЙ ЯЗЫК С МОРКОВНЫМ БУЛГУРОМ И ПЕРЕЧНЫМ СОУСОМ»",
+					"cost": 550,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0429.jpg",
+					"id": "0429",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАЛЬМАРЫ ТЕРИЯКИ С ОВОЩНЫМ РАТАТУЕМ»",
+					"cost": 550,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0430.jpg",
+					"id": "0430",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФИЛЕ ФОРЕЛИ СО ШПИНАТОМ И ПТИТИМОМ В СЫРНОМ СОУСЕ»",
+					"cost": 850,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0431.jpg",
+					"id": "0431",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОДЖАХУРИ»",
+					"cost": 750,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0432.jpg",
+					"id": "0432",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САДЖ ИЗ ПТИЦЫ»",
+					"cost": 1250,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0433.jpg",
+					"id": "0433",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САДЖ МЯСНОЙ»",
+					"cost": 2250,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/maximilian/0434.jpg",
+					"id": "0434",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛЮЛЯ-КЕБАБ ИЗ ГОВЯДИНЫ И СВИНИНЫ»",
+					"cost": 470,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/maximilian/0435.jpg",
+					"id": "0435",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛЮЛЯ-КЕБАБ ИЗ ЦЫПЛЁНКА»",
+					"cost": 390,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/maximilian/0436.jpg",
+					"id": "0436",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШАШЛЫК ИЗ ГРУДКИ ЦЫПЛЁНКА»",
+					"cost": 410,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/maximilian/0437.jpg",
+					"id": "0437",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛЮЛЯ-КЕБАБ»",
+					"cost": 690,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/maximilian/0438.jpg",
+					"id": "0438",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШАШЛЫК ИЗ ЯГНЁНКА ПО-КАВКАЗСКИ»",
+					"cost": 790,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/maximilian/0439.jpg",
+					"id": "0439",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШАШЛЫК ИЗ КОРЕЙКИ ЯГНЁНКА»",
+					"cost": 890,
+					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
+					"image_url": "./src/resources/img/restaurants/maximilian/0440.jpg",
+					"id": "0440",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220116",
+			"name": "«Альпенхаус»",
+			"image_url": "https://i.siteapi.org/rEwDrc91EJwlRglDXzUrygAriCI=/fit-in/330x0/top/filters:format(webp)/ec7672f1f20a43f.s2.siteapi.org/img/76xxlfsss98ocw404484ooockw8s4w",
+			"location": "Санкт-Петербург, Южная дорога, 15",
+			"cuisine": "Немецкая, пивная",
+			"total_reviews": 71,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1400,
+			"opens_at": "12:00 AM",
+			"food_items": [
+				{
+					"name": "«МОРКОВНЫЙ ТОРТ»",
+					"cost": 290,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0441.jpg",
+					"id": "0441",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАНАНОВЫЙ КЕЙК С МАРАКУЙЕЙ И КОКОСОВОЙ СТРУЖКОЙ»",
+					"cost": 290,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0442.jpg",
+					"id": "0442",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧИЗКЕЙК С ПЕРСИКОМ И МАРАКУЙЕЙ»",
+					"cost": 250,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0443.jpg",
+					"id": "0443",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРАМЕЛЬНЫЙ ТОРТ С ПЕРСИКОМ»",
+					"cost": 290,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0444.jpg",
+					"id": "0444",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШОКОЛАДНЫЙ РУЛЕТ С ВИШНЕЙ»",
+					"cost": 250,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0445.jpg",
+					"id": "0445",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«НАПОЛЕОН С КЛУБНИЧНЫМ КОНФИ»",
+					"cost": 290,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0446.jpg",
+					"id": "0446",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШОКОЛАДНЫЙ ТОРТ С ЧЁРНОЙ СМОРОДИНОЙ»",
+					"cost": 250,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0447.jpg",
+					"id": "0447",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МЕДОВИК С ПЕРСИКОМ И СМЕТАНОЙ»",
+					"cost": 290,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0448.jpg",
+					"id": "0448",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПАХЛАВА К ЧАЮ»",
+					"cost": 90,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0449.jpg",
+					"id": "0449",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«МИНДАЛЬНО-МАЛИНОВЫЙ ТОРТ»",
+					"cost": 290,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0450.jpg",
+					"id": "0450",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФУНДУЧНЫЙ ТОРТ»",
+					"cost": 290,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0451.jpg",
+					"id": "0451",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФИСТАШКОВЫЙ РУЛЕТ»",
+					"cost": 370,
+					"food_type": "ДЕСЕРТЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0452.jpg",
+					"id": "0452",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРЕЧКА С БЕЛЫМИ ГРИБАМИ»",
+					"cost": 150,
+					"food_type": "ГАРНИРЫ И СОУСЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0453.jpg",
+					"id": "0453",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖАРЕНАЯ СТРУЧКОВАЯ ФАСОЛЬ»",
+					"cost": 150,
+					"food_type": "ГАРНИРЫ И СОУСЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0454.jpg",
+					"id": "0454",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРТОФЕЛЬ АЙДАХО»",
+					"cost": 150,
+					"food_type": "ГАРНИРЫ И СОУСЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0455.jpg",
+					"id": "0455",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРТОФЕЛЬНОЕ ПЮРЕ»",
+					"cost": 150,
+					"food_type": "ГАРНИРЫ И СОУСЫ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0456.jpg",
+					"id": "0456",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АКВА МИНЕРАЛЕ Б/ГАЗ» 500ml",
+					"cost": 50,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0457.jpg",
+					"id": "0457",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АКВА МИНЕРАЛЕ ГАЗ» 500ml",
+					"cost": 50,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0458.jpg",
+					"id": "0458",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЕПСИ» 250ml",
+					"cost": 40,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0459.jpg",
+					"id": "0459",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АЙРАН» 200ml",
+					"cost": 60,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0460.jpg",
+					"id": "0460",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АКВА МИНЕРАЛЕ ГАЗ» 1.0l",
+					"cost": 70,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0461.jpg",
+					"id": "0461",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПЕПСИ» 1.0l",
+					"cost": 90,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0462.jpg",
+					"id": "0462",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОК Я ВИШНЯ» 200ml",
+					"cost": 90,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0463.jpg",
+					"id": "0463",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОК Я ТОМАТ» 200ml",
+					"cost": 90,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0464.jpg",
+					"id": "0464",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОК Я ЯБЛОКО» 200 ml",
+					"cost": 90,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0465.jpg",
+					"id": "0465",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОК Я АПЕЛЬСИН» 200ml",
+					"cost": 90,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0466.jpg",
+					"id": "0466",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОК Я АПЕЛЬСИН» 970ml",
+					"cost": 150,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0467.jpg",
+					"id": "0467",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОК Я АНАНАС» 970ml",
+					"cost": 150,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0468.jpg",
+					"id": "0468",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОК Я ВИШНЯ» 970ml",
+					"cost": 150,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0469.jpg",
+					"id": "0469",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОК Я ГРЕЙПФРУТ» 970ml",
+					"cost": 150,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/alpenhaus/0470.jpg",
+					"id": "0470",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220117",
+			"name": "«GITANO»",
+			"image_url": "https://i.siteapi.org/tCTfDxOH1dlOY9b7WFQR0xTkTwA=/fit-in/330x0/top/filters:format(webp)/s2.siteapi.org/ec7672f1f20a43f/img/redqdiz4gpw048s4w4ws4goggco8cg",
+			"location": "Санкт-Петербург, ул. Садовая, 12, второй этаж (м. Гостиный двор, Невский Проспект)",
+			"cuisine": "Индийская, тайская",
+			"total_reviews": 80,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 1500,
+			"opens_at": "11:00 PM",
+			"food_items": [
+				{
+					"name": "«СОК Я ПЕРСИК» 970ml",
+					"cost": 150,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/gittano/0471.jpg",
+					"id": "0471",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОК Я ТОМАТ» 970ml",
+					"cost": 150,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/gittano/0472.jpg",
+					"id": "0472",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СОК Я ЯБЛОКО» 970ml",
+					"cost": 150,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/gittano/0473.jpg",
+					"id": "0473",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "МОРС КЛЮКВЕННЫЙ «ФРУКТОВЫЙ САД» 950ml",
+					"cost": 150,
+					"food_type": "НАПИТКИ",
+					"image_url": "./src/resources/img/restaurants/gittano/0474.jpg",
+					"id": "0474",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЯЙЦО БЕНЕДИКТ» С АВОКАДО",
+					"cost": 490,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/gittano/0475.jpg",
+					"id": "0475",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЙОГУРТ С БАНАНОМ»",
+					"cost": 350,
+					"food_type": "ЗАВТРАКИ",
+					"image_url": "./src/resources/img/restaurants/gittano/0476.jpg",
+					"id": "0476",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "САЛАТ С ОСЬМИНОГОМ",
+					"cost": 1490,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/gittano/0477.jpg",
+					"id": "0477",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С ГРУЗДЯМИ»",
+					"cost": 590,
+					"food_type": "САЛАТЫ",
+					"image_url": "./src/resources/img/restaurants/gittano/0478.jpg",
+					"id": "0478",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРУЗДИ БЕЛЫЕ СО СМЕТАНОЙ И КРАСНЫМ ЛУКОМ»",
+					"cost": 390,
+					"food_type": "ЗАКУСКИ",
+					"image_url": "./src/resources/img/restaurants/gittano/0479.jpg",
+					"id": "0479",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СИБАС С САЛАТОМ ИЗ СЛАДКИХ ТОМАТОВ И КИНЗЫ»",
+					"cost": 1190,
+					"food_type": "КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/gittano/0480.jpg",
+					"id": "0480",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СКУМБРИЯ НА ОЛЬХОВЫХ ОПИЛКАХ С МОЛОДЫМ КАРТОФЕЛЕМ»",
+					"cost": 1190,
+					"food_type": "КОПТИЛЬНЯ",
+					"image_url": "./src/resources/img/restaurants/gittano/0481.jpg",
+					"id": "0481",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФИЛЕ-МИНЬОН»",
+					"cost": 3390,
+					"food_type": "ГРИЛЬ",
+					"image_url": "./src/resources/img/restaurants/gittano/0482.jpg",
+					"id": "0482",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ФИЛЕ-МИНЬОН В ГОРЧИЧНОМ МАРИНАДЕ»",
+					"cost": 3390,
+					"food_type": "ГРИЛЬ",
+					"image_url": "./src/resources/img/restaurants/gittano/0483.jpg",
+					"id": "0483",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РЕБРА СВИНЫЕ С САЛАТОМ «КОУЛ СЛОУ»»",
+					"cost": 890,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/gittano/0484.jpg",
+					"id": "0484",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РУБЛЕНАЯ КОТЛЕТА «ПЛЕСКАВИЦА»",
+					"cost": 990,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/gittano/0485.jpg",
+					"id": "0485",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КОТЛЕТА ИЗ ИНДЕЙКИ С ГРИБНЫМ СОУСОМ»",
+					"cost": 690,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/gittano/0486.jpg",
+					"id": "0486",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ДОМАШНЯЯ КОТЛЕТА С КАРТОФЕЛЬНЫМ ПЮРЕ»",
+					"cost": 690,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/gittano/0487.jpg",
+					"id": "0487",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТЕЛЯЧЬИ ЩЕЧКИ С ПЮРЕ»",
+					"cost": 990,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/gittano/0488.jpg",
+					"id": "0488",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПАЛТУС С КЕШЬЮ, ВЯЛЕНЫМИ ТОМАТАМИ И ШПИНАТОМ»",
+					"cost": 1290,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/gittano/0489.jpg",
+					"id": "0489",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«СТЕЙК ИЗ ЛОСОСЯ С ОВОЩАМИ И ИКОРНЫМ СОУСОМ»",
+					"cost": 1390,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/gittano/0490.jpg",
+					"id": "0490",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЖАРЕННЫЙ КАРП ПО-ДОМАШНЕМУ»",
+					"cost": 1190,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/gittano/0491.jpg",
+					"id": "0491",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КРЕВЕТКИ С ЧЕСНОКОМ И ПЕТРУШКОЙ»",
+					"cost": 1390,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/gittano/0492.jpg",
+					"id": "0492",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«РИЗОТТО С ЛАНГУСТИНАМИ»",
+					"cost": 990,
+					"food_type": "ГОРЯЧИЕ БЛЮДА",
+					"image_url": "./src/resources/img/restaurants/gittano/0493.jpg",
+					"id": "0493",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОВОЩИ НА ГРИЛЕ»",
+					"cost": 450,
+					"food_type": "ГАРНИРЫ",
+					"image_url": "./src/resources/img/restaurants/gittano/0494.jpg",
+					"id": "0494",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЗАПЕЧЕННЫЙ МИНИ-КАРТОФЕЛЬ»",
+					"cost": 390,
+					"food_type": "ГАРНИРЫ",
+					"image_url": "./src/resources/img/restaurants/gittano/0495.jpg",
+					"id": "0495",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ПОЧАТКИ КУКУРУЗЫ»",
+					"cost": 350,
+					"food_type": "ГАРНИРЫ",
+					"image_url": "./src/resources/img/restaurants/gittano/0496.jpg",
+					"id": "0496",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КАРТОФЕЛЬ, ЖАРЕННЫЙ С ГРИБАМИ»",
+					"cost": 390,
+					"food_type": "ГАРНИРЫ",
+					"image_url": "./src/resources/img/restaurants/gittano/0497.jpg",
+					"id": "0497",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЗАПЕЧЕННЫЙ РОЛЛ С КРАБОМ И КРЕВЕТКАМИ»",
+					"cost": 1490,
+					"food_type": "ЯПОНСКАЯ КУХНЯ",
+					"image_url": "./src/resources/img/restaurants/gittano/0498.jpg",
+					"id": "0498",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЗАПЕЧЕННЫЙ РОЛЛ С ЛОСОСЕМ И УГРЕМ»",
+					"cost": 1290,
+					"food_type": "ЯПОНСКАЯ КУХНЯ",
+					"image_url": "./src/resources/img/restaurants/gittano/0499.jpg",
+					"id": "0499",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОСТРЫЙ РОЛЛ С ТУНЦОМ ТАТАКИ»",
+					"cost": 1090,
+					"food_type": "ЯПОНСКАЯ КУХНЯ",
+					"image_url": "./src/resources/img/restaurants/gittano/0500.jpg",
+					"id": "0500",
+					"rating": "★★★★★"
+				}
+			]
+		},
+		{
+			"id": "20220118",
+			"name": "«Eshak/Ишак»",
+			"image_url": "https://i.siteapi.org/T4SqT6hm9EiZs-yaDWya1Xv_IQI=/fit-in/330x0/top/filters:format(webp)/ec7672f1f20a43f.s2.siteapi.org/img/l3fu4j1uzk004ko4sc48ss0o00k0sc",
+			"location": "Москва: ул. Новый Арбат, 21, стр. 1 (метро Арбатская/Смоленская)",
+			"cuisine": "Грузинская, узбекская",
+			"total_reviews": 42,
+			"rating": "★★★★★",
+			"has_online_delivery": true,
+			"cost_for_two": 2500,
+			"opens_at": "12:00 АM",
+			"food_items": [
+				{
+					"name": "«АЧИЧУК»",
+					"cost": 440,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0501.jpg",
+					"id": "0501",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГРЕЧЕСКИЙ САЛАТ ИЗ БАКЛАЖАНОВ»",
+					"cost": 550,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0502.jpg",
+					"id": "0502",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛЮБИМЫЙ САЛАТ СЕРГЕЯ СВЕТЛАКОВА»",
+					"cost": 470,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0503.jpg",
+					"id": "0503",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ОЛИВЬЕ С КРАБОМ»",
+					"cost": 1200,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0504.jpg",
+					"id": "0504",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ ИЗ БАКЛАЖАНОВ»",
+					"cost": 690,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0505.jpg",
+					"id": "0505",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ МЯСНОЙ МИКС С ЧИПСАМИ»",
+					"cost": 450,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0506.jpg",
+					"id": "0506",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ ПО-ГРЕЧЕСКИ»",
+					"cost": 460,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0507.jpg",
+					"id": "0507",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С КАЛЬМАРАМИ»",
+					"cost": 650,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0508.jpg",
+					"id": "0508",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С КИНОА»",
+					"cost": 520,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0509.jpg",
+					"id": "0509",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С КРАБОМ В КОКОСОВОМ СОУСЕ»",
+					"cost": 1050,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0510.jpg",
+					"id": "0510",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С КУРИНОЙ ПЕЧЕНЬЮ»",
+					"cost": 620,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0511.jpg",
+					"id": "0511",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«САЛАТ С УГРЕМ И СОУСОМ НИСУАЗ»",
+					"cost": 790,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0512.jpg",
+					"id": "0512",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТАШКЕНТ»",
+					"cost": 470,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0513.jpg",
+					"id": "0513",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЦЕЗАРЬ С КРЕВЕТКАМИ»",
+					"cost": 650,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0514.jpg",
+					"id": "0514",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЦЕЗАРЬ С КУРИЦЕЙ»",
+					"cost": 520,
+					"food_type": "Салаты",
+					"image_url": "./src/resources/img/restaurants/eshak/0515.jpg",
+					"id": "0515",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ГАСПАЧО С КРАБОМ»",
+					"cost": 650,
+					"food_type": "Супы",
+					"image_url": "./src/resources/img/restaurants/eshak/0516.jpg",
+					"id": "0516",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«КУКУРУЗНЫЙ СУП С КРАБОМ»",
+					"cost": 550,
+					"food_type": "Супы",
+					"image_url": "./src/resources/img/restaurants/eshak/0517.jpg",
+					"id": "0517",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЛАГМАН»",
+					"cost": 450,
+					"food_type": "Супы",
+					"image_url": "./src/resources/img/restaurants/eshak/0518.jpg",
+					"id": "0518",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ТОМ ЯМ»",
+					"cost": 620,
+					"food_type": "Супы",
+					"image_url": "./src/resources/img/restaurants/eshak/0519.jpg",
+					"id": "0519",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«УГРА-ОШ»",
+					"cost": 390,
+					"food_type": "Супы",
+					"image_url": "./src/resources/img/restaurants/eshak/0520.jpg",
+					"id": "0520",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«УКРАИНСКИЙ БОРЩ»",
+					"cost": 420,
+					"food_type": "Супы",
+					"image_url": "./src/resources/img/restaurants/eshak/0521.jpg",
+					"id": "0521",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«УХА С ПЕСТО»",
+					"cost": 550,
+					"food_type": "Супы",
+					"image_url": "./src/resources/img/restaurants/eshak/0522.jpg",
+					"id": "0522",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ХАРЧО»",
+					"cost": 450,
+					"food_type": "Супы",
+					"image_url": "./src/resources/img/restaurants/eshak/0523.jpg",
+					"id": "0523",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ЧУЧВАРА ШУРПА»",
+					"cost": 450,
+					"food_type": "Супы",
+					"image_url": "./src/resources/img/restaurants/eshak/0524.jpg",
+					"id": "0524",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«ШУРПА ИЗ ТАШКЕНТА»",
+					"cost": 550,
+					"food_type": "Супы",
+					"image_url": "./src/resources/img/restaurants/eshak/0525.jpg",
+					"id": "0525",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АССОРТИ ИЗ СВЕЖИХ ОВОЩЕЙ»",
+					"cost": 550,
+					"food_type": "Закуски",
+					"image_url": "./src/resources/img/restaurants/eshak/0526.jpg",
+					"id": "0526",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«АССОРТИ МЯСНЫХ ДЕЛИКАТЕСОВ»",
+					"cost": 1100,
+					"food_type": "Закуски",
+					"image_url": "./src/resources/img/restaurants/eshak/0527.jpg",
+					"id": "0527",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАКЛАЖАНЫ ВОСТОКА»",
+					"cost": 520,
+					"food_type": "Закуски",
+					"image_url": "./src/resources/img/restaurants/eshak/0528.jpg",
+					"id": "0528",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БАЛТИЙСКАЯ КИЛЬКА С МИНИ-КАРТОФЕЛЕМ»",
+					"cost": 490,
+					"food_type": "Закуски",
+					"image_url": "./src/resources/img/restaurants/eshak/0529.jpg",
+					"id": "0529",
+					"rating": "★★★★★"
+				},
+				{
+					"name": "«БУРРАТА НА ПЕЧЕНОЙ ЛЕПЕШКЕ»",
+					"cost": 1100,
+					"food_type": "Закуски",
+					"image_url": "./src/resources/img/restaurants/eshak/0530.jpg",
+					"id": "0530",
+					"rating": "★★★★★"
+				}
+			]
+		}
+	]
+}

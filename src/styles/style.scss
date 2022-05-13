@@ -1,0 +1,31 @@
+@import "./reset.scss";
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Sans:ital,wght@0,400;0,500;1,400;1,700&family=Inter:wght@500;600&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500&display=swap");
+@import "./variables.scss";
+@import "./buttons.scss";
+
+html,
+body {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+body {
+	position: relative;
+	font-family: "DM Sans", sans-serif;
+	font-style: normal;
+	color: $main-color;
+	background: #fff;
+	overflow-x: hidden;
+	min-width: 20rem;
+}
+
+.app {
+	width: 100%;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}

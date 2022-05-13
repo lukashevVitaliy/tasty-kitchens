@@ -1,0 +1,47 @@
+@import "./variables.scss";
+
+.btn {
+	display: block;
+	padding: 8px 16px;
+	background: $color-active;
+	border-radius: 8px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	color: $white-color;
+
+	&__cart {
+		margin: 0 0 0 auto;
+	}
+
+	&__paym,
+	&__home,
+	&__empty {
+		margin: 0 auto;
+	}
+
+	&__paym {
+		width: 131px;
+	}
+	&__home {
+		width: 123px;
+		text-align: center;
+	}
+
+	&__empty {
+		width: 93px;
+	}
+	&__form {
+		width: 100%;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	&__menu {
+		background: $white-color;
+		border: 2px solid $color-active;
+		border-radius: 8px;
+		color: $color-active;
+		text-transform: uppercase;
+	}
+}
