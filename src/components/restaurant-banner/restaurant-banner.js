@@ -1,28 +1,28 @@
-
-
 import './restaurant-banner.scss';
 
-import photo from '../../resources/img/restaurants/alpenhaus/0441.jpg';
 
-export const RestaurantBanner = () => {
+export const RestaurantBanner = ({ currentRestaurant }) => {
+	const { image_url, name, cuisine, location, rating, total_reviews, cost_for_two } = currentRestaurant;
+
+
 	return (
 		<div className="restaurant-banner">
 			<div className="container">
 				<div className="restaurant-banner__wrap">
 					<div className="restaurant-banner__image">
-						<img src={photo} alt="restaurant" />
+						<img src={image_url} alt={name} />
 					</div>
 					<div className="restaurant-banner__desc">
-						<h2 className="restaurant-banner__title">Mc Donald’s</h2>
-						<p className="restaurant-banner__cuisine">American, Fast Food, Snacks</p>
-						<p className="restaurant-banner__location">TGF Variety Mall Kurnool, New Krishna Nagar</p>
+						<h2 className="restaurant-banner__title">{name}</h2>
+						<p className="restaurant-banner__cuisine">{cuisine}</p>
+						<p className="restaurant-banner__location">{location}</p>
 						<div className="restaurant-banner__inner">
 							<div className="restaurant-banner__rating">
-								<span>★ ★ ★ ★ ★</span>
-								<p>200+ Ratings</p>
+								<span>{rating}</span>
+								<p>{total_reviews} Ratings</p>
 							</div>
 							<div className="restaurant-banner__costForTwo">
-								<span>₽ 350</span>
+								<span>{cost_for_two} ₽</span>
 								<p>Cost for two</p>
 							</div>
 						</div>

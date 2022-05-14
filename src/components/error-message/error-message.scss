@@ -1,0 +1,34 @@
+@import "../../styles/variables.scss";
+
+.error-message {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	&__wrap {
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translateX(-50%);
+		max-width: 530px;
+		min-height: 506px;
+	}
+	&__image {
+		margin: 0 auto;
+		max-width: 269px;
+		max-height: 297px;
+		margin-bottom: 48px;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	&__title {
+		@extend %h2-title;
+		// font-weight: 700;
+		// font-size: 50px;
+		color: $color-active;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+}

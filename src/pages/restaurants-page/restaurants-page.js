@@ -1,13 +1,32 @@
+import { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 
+import { fetchRestaurants } from '../../store/reducers/restaurantsSlice';
 import { Header } from '../../components/header';
 import { Footer } from '../../components/footer';
 import { SliderPromo } from '../../components/slider-promo';
 import { SortPanel } from '../../components/sort-panel';
 import { RestaurantsList } from '../../components/restaurants-list';
+import { Spinner } from '../../components/spinner';
+import { ErrorMessage } from '../../components/error-message';
+
 import './restaurants-page.scss';
 
 
 export const RestaurantsPage = () => {
+	const { restaurantsLoadingStatus } = useSelector(state => state.restaurants);
+	const dispatch = useDispatch();
+
+	useEffect(() => {
+		dispatch(fetchRestaurants())
+	}, [])
+
+	if (restaurantsLoadingStatus === 'loading') {
+		return <Spinner />;
+	} else if (restaurantsLoadingStatus === 'error') {
+		return <ErrorMessage />
+	}
+
 	return (
 		<div className="restaurants-page">
 			<Header />
