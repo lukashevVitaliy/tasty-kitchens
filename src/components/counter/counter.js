@@ -13,6 +13,8 @@ export const Counter = ({ quantity, setQuantity }) => {
 		setQuantity(newQty);
 	}
 
+
+
 	return (
 		<div className="counter">
 			<button

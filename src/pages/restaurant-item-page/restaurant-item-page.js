@@ -9,7 +9,6 @@ import './restaurant-item-page.scss';
 
 export const RestaurantItemPage = () => {
 	const currentRestaurant = useSelector(state => state.restaurants.currentRestaurant.restaurant);
-	console.log(currentRestaurant);
 	const dishes = useSelector(state => state.restaurants.currentRestaurant.restaurant.food_items);
 
 	return (

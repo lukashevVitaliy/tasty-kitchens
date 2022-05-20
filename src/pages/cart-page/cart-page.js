@@ -1,14 +1,72 @@
+import { useCallback, useEffect, useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
 
-
+import { deleteItemsInCart } from '../../store/reducers/cartSlice';
 import { Header } from '../../components/header';
 import { Footer } from '../../components/footer';
-import { Counter } from '../../components/counter';
+import { CounterCart } from '../../components/counterCart';
+import { useNavigate } from 'react-router-dom';
 
 import './cart-page.scss';
 
-import dish from '../../resources/img/restaurants/alpenhaus/0441.jpg';
 
 export const CartPage = () => {
+
+	const items = useSelector(state => state.cart.itemsInCart);
+	const [total, setTotal] = useState();
+	const dispatch = useDispatch();
+	const navigate = useNavigate();
+
+	useEffect(() => {
+		if (items.length === 0) {
+			navigate("/empty");
+		}
+	}, [items])
+
+	const handleClick = (id) => {
+		dispatch(deleteItemsInCart(id));
+	}
+
+	const renderItems = (arr) => {
+
+		return arr.map(product => {
+			const { id, name, image_url, cost, quantity } = product;
+			const totalItemPrice = quantity * cost;
+
+			return {
+				totalItemPrice,
+				tmpl: (
+					<li key={uuidv4()} className="cart-page__link" >
+						<div className="cart-page__image">
+							<img src={image_url} alt={name} />
+						</div>
+						<h4 className="cart-page__name">{name}</h4>
+						<div className="cart-page__counter">
+							<CounterCart
+								id={id}
+								name={name}
+								image_url={image_url}
+								cost={cost}
+								quantity={quantity}
+							/>
+						</div>
+						<p className="cart-page__price">{totalItemPrice} ₽
+							<span><button type="button" style={{ color: 'red', cursor: 'pointer' }} onClick={() => handleClick(id)}>✗</button></span>
+						</p>
+					</li>
+				)
+			}
+		})
+	}
+
+	const products = renderItems(items);
+
+	const arrTotalItems = products.map(p => p.totalItemPrice);
+	const totalOrder = arrTotalItems.reduce((acc, product) => acc += product);
+	const totalOrderConvert = new Intl.NumberFormat('ru-RU', { style: 'currency', currency: 'RUB' }).format(totalOrder);
+
+
 	return (
 		<div className="cart-page">
 			<Header />
@@ -20,18 +78,14 @@ export const CartPage = () => {
 						<p className="cart-page__title-quantity">Quantity</p>
 						<p className="cart-page__title-prices">Price</p>
 						{/* Add Item */}
-						<div className="cart-page__image">
-							<img src={dish} alt="dish" />
-						</div>
-						<h4 className="cart-page__name">Prawn Special</h4>
-						<div className="cart-page__counter">
-							<Counter />
-						</div>
-						<p className="cart-page__price">550.00 ₽</p>
+						<ul className="cart-page__list">
+							{products.map(p => p.tmpl)}
+						</ul>
 					</div>
 					<div className="cart-page__info">
 						<div className="cart-page__text">Order Total :</div>
-						<div className="cart-page__total">800.00 ₽</div>
+						{/* <div className="cart-page__total">808 rub</div> */}
+						<div className="cart-page__total">{totalOrderConvert}</div>
 					</div>
 					<button className="btn btn__cart">Place Order</button>
 				</div>
@@ -41,3 +95,30 @@ export const CartPage = () => {
 	)
 }
 
+// const renderItems = (arr) => {
+
+// 	return arr.map(product => {
+// 		const { id, name, image_url, cost, quantity } = product;
+// 		totalItemPrice = quantity * cost;
+
+// 		return (
+// 			<li key={uuidv4()} className="cart-page__link" >
+// 				<div className="cart-page__image">
+// 					<img src={image_url} alt={name} />
+// 				</div>
+// 				<h4 className="cart-page__name">{name}</h4>
+// 				<div className="cart-page__counter">
+// 					<CounterCart
+// 						id={id}
+// 						name={name}
+// 						image_url={image_url}
+// 						cost={cost}
+// 						quantity={quantity}
+// 					/>
+// 				</div>
+// 				<p className="cart-page__price">{totalItemPrice} ₽
+// 					<span><button type="button" style={{ color: 'red', cursor: 'pointer' }} onClick={() => handleClick(id)}>✗</button></span>
+// 				</p>
+// 			</li>
+// 		)
+// 	})

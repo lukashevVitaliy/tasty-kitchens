@@ -25,8 +25,8 @@ export const RestaurantMenu = ({ dishes }) => {
 
 
 	return (
-		<div className="restaurant-menu">
+		<ul className="restaurant-menu">
 			{element}
-		</div>
+		</ul>
 	)
 }

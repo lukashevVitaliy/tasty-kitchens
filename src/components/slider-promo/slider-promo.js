@@ -20,7 +20,7 @@ export const SliderPromo = () => {
 			modules={[Pagination, Keyboard, FreeMode, Autoplay]}
 			spaceBetween={50}
 			slidesPerView={1}
-			autoplay={true}
+			autoplay={false}
 			freeMode={false}
 			keyboard={{
 				enabled: true,

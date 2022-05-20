@@ -1,30 +1,42 @@
 import { useState, useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
 
-
+import { setItemsInCart, updateItemsInCart } from '../../store/reducers/cartSlice';
 import { Counter } from '../counter';
 
 import './restaurant-menu-item.scss';
 
 
 export const RestaurantMenuItem = ({ dish }) => {
+	const dishesInCart = useSelector(state => state.cart.itemsInCart);
 	const [quantity, setQuantity] = useState(1);
 	const [buttonAdd, setButtonAdd] = useState(false);
 	const dispatch = useDispatch();
 
+
 	useEffect(() => {
+		if (quantity > 1) {
+			updateDish();
+		}
 
 	}, [quantity])
 
+	const { id, name, image_url, rating, cost } = dish;
+
 	const handleClick = () => {
 		setButtonAdd({ buttonAdd: !buttonAdd });
-
+		dispatch(setItemsInCart({ dish, quantity }));
 	}
 
-	const { name, image_url, rating, cost } = dish;
+	const updateDish = () => {
+		dispatch(updateItemsInCart({ dish, quantity }));
+	}
+
+
 
 	return (
-		<div className="restaurant-menu-item">
+		<li key={uuidv4()} className="restaurant-menu-item">
 			<div className="restaurant-menu-item__image">
 				<img src={image_url} alt={name} />
 			</div>
@@ -41,11 +53,7 @@ export const RestaurantMenuItem = ({ dish }) => {
 						>Add</button> :
 						<Counter quantity={quantity} setQuantity={setQuantity} />
 				}
-
-
-
-
 			</div>
-		</div>
+		</li>
 	)
 }
