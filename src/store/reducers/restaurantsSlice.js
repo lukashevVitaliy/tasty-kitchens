@@ -20,16 +20,6 @@ const restaurantsSlice = createSlice({
 	name: 'restaurants',
 	initialState,
 	reducers: {
-		// restaurantsFetching: state => {
-		// 	state.restaurantsLoadingStatus = 'loading';
-		// },
-		// restaurantsFetched: (state, action) => {
-		// 	state.restaurantsLoadingStatus = 'idle';
-		// 	state.restaurants = action.payload;
-		// },
-		// restaurantsFetchingError: state => {
-		// 	state.restaurantsLoadingStatus = 'error';
-		// },
 		setCurrentRestaurant: (state, action) => {
 			state.currentRestaurant = action.payload;
 		}

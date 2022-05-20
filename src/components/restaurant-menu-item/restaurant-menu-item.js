@@ -9,7 +9,6 @@ import './restaurant-menu-item.scss';
 
 
 export const RestaurantMenuItem = ({ dish }) => {
-	const dishesInCart = useSelector(state => state.cart.itemsInCart);
 	const [quantity, setQuantity] = useState(1);
 	const [buttonAdd, setButtonAdd] = useState(false);
 	const dispatch = useDispatch();
@@ -22,7 +21,7 @@ export const RestaurantMenuItem = ({ dish }) => {
 
 	}, [quantity])
 
-	const { id, name, image_url, rating, cost } = dish;
+	const { name, image_url, rating, cost } = dish;
 
 	const handleClick = () => {
 		setButtonAdd({ buttonAdd: !buttonAdd });
