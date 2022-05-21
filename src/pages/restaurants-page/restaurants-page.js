@@ -27,6 +27,7 @@ export const RestaurantsPage = () => {
 		return <ErrorMessage />
 	}
 
+
 	return (
 		<div className="restaurants-page">
 			<Header />
@@ -42,6 +43,5 @@ export const RestaurantsPage = () => {
 			</div>
 			<Footer />
 		</div>
-
 	)
 }

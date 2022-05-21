@@ -12,7 +12,7 @@ export const fetchRestaurants = createAsyncThunk(
 	'fetch/fetchRestaurants',
 	() => {
 		const { request } = useHttp();
-		return request("http://localhost:3001/restaurants?_limit=9")
+		return request("http://localhost:3001/restaurants")
 	}
 )
 
@@ -22,7 +22,13 @@ const restaurantsSlice = createSlice({
 	reducers: {
 		setCurrentRestaurant: (state, action) => {
 			state.currentRestaurant = action.payload;
-		}
+		},
+		sortLowestRestaurants: (state, action) => {
+			state.restaurants = action.payload;
+		},
+		sortHighestRestaurants: (state, action) => {
+			state.restaurants = action.payload;
+		},
 	},
 	extraReducers: (builder) => {
 		builder
@@ -48,5 +54,7 @@ export const {
 	restaurantsFetching,
 	restaurantsFetched,
 	restaurantsFetchingError,
-	setCurrentRestaurant
+	setCurrentRestaurant,
+	sortLowestRestaurants,
+	sortHighestRestaurants
 } = actions;
