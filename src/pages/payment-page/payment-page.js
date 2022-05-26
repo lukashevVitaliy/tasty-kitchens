@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Header } from '../../components/header';
 
 import './payment-page.scss';
@@ -15,7 +16,7 @@ export const PaymentPage = () => {
 				<p className="payment-page__desc">
 					Thank you for ordering<br />Your payment is successfully completed.
 				</p>
-				<a href="#" className="btn btn__paym">Go To Home Page</a>
+				<Link to="/restaurants" className="btn btn__paym">Go To Home Page</Link>
 			</div>
 
 		</div>

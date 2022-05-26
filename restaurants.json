@@ -1,4 +1,13 @@
 {
+	"orders": [],
+	"users": [
+		{
+			"id": "538463bc-6ce7-4ddb-8e4c-e31a24f1dc99",
+			"name": "qwerty26",
+			"phone": 79814563128,
+			"password": "123456789"
+		}
+	],
 	"restaurants": [
 		{
 			"id": "20220101",
@@ -4320,7 +4329,7 @@
 		},
 		{
 			"id": "20220118",
-			"name": "«Eshak/Ишак»",
+			"name": "«Eshak»",
 			"image_url": "https://i.siteapi.org/T4SqT6hm9EiZs-yaDWya1Xv_IQI=/fit-in/330x0/top/filters:format(webp)/ec7672f1f20a43f.s2.siteapi.org/img/l3fu4j1uzk004ko4sc48ss0o00k0sc",
 			"location": "Москва: ул. Новый Арбат, 21, стр. 1 (метро Арбатская/Смоленская)",
 			"cuisine": "Грузинская, узбекская",

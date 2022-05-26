@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Header } from '../../components/header';
 
 import './empty-page.scss';
@@ -17,7 +18,7 @@ export const EmptyPage = () => {
 				<p className="empty-page__desc">
 					Your cart is empty. Add something from the menu.
 				</p>
-				<a href="#" className="btn btn__empty">Order Now</a>
+				<Link to="/restaurants" className="btn btn__empty">Order Now</Link>
 			</div>
 
 		</div>

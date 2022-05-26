@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
 import { LoginPage } from "../../pages/login-page";
+import { RegistrationPage } from '../../pages/registration-page';
 import { RestaurantsPage } from "../../pages/restaurants-page";
 import { RestaurantItemPage } from "../../pages/restaurant-item-page";
 import { CartPage } from "../../pages/cart-page";
@@ -11,6 +12,7 @@ import { Page404 } from "../../pages/page-404";
 
 import store from '../../store/index';
 
+
 export const App = () => {
 
 	return (
@@ -19,6 +21,7 @@ export const App = () => {
 				<div className="app">
 					<Routes>
 						<Route path="/" element={<LoginPage />} />
+						<Route path="registration" element={<RegistrationPage />} />
 						<Route path="restaurants" element={<RestaurantsPage />} />
 						<Route path="restaurants/:name" element={<RestaurantItemPage />} />
 						<Route path="cart" element={<CartPage />} />

@@ -20,7 +20,6 @@ const cartSlice = createSlice({
 		},
 
 		updateItemsInCart: (state, action) => {
-
 			const itemIndex = state.itemsInCart.findIndex(item => item.id === action.payload.dish.id);
 
 			if (itemIndex >= 0) {
@@ -29,7 +28,6 @@ const cartSlice = createSlice({
 			}
 		},
 		updateItemsInCartCount: (state, action) => {
-
 			const itemIndex = state.itemsInCart.findIndex(item => item.id === action.payload.dish.id);
 
 			if (itemIndex >= 0) {
@@ -37,10 +35,13 @@ const cartSlice = createSlice({
 				state.itemsInCart[itemIndex].quantity = action.payload.qty;
 			}
 		},
-
 		deleteItemsInCart: (state, action) => {
 			state.itemsInCart = state.itemsInCart.filter(item => item.id !== action.payload);
+		},
+		resetCart: state => {
+			state.itemsInCart = [];
 		}
+
 	}
 })
 
@@ -52,5 +53,6 @@ export const {
 	setItemsInCart,
 	deleteItemsInCart,
 	updateItemsInCart,
-	updateItemsInCartCount
+	updateItemsInCartCount,
+	resetCart
 } = actions;

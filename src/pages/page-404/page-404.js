@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './page-404.scss';
 import page404 from '../../resources/img/page-error.svg';
 
@@ -14,7 +16,7 @@ export const Page404 = () => {
 					We are sorry, the page you requested could not be found.<br />
 					Please go back to the homepage
 				</p>
-				<a href="#" className="btn btn__home">Home Page</a>
+				<Link to="/restaurants" className="btn btn__home">Home Page</Link>
 			</div>
 
 		</div>

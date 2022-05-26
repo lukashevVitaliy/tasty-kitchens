@@ -1,8 +1,9 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 
-import { deleteItemsInCart } from '../../store/reducers/cartSlice';
+import { deleteItemsInCart, resetCart } from '../../store/reducers/cartSlice';
+import { addOrders } from '../../store/reducers/orderSlice';
 import { Header } from '../../components/header';
 import { Footer } from '../../components/footer';
 import { CounterCart } from '../../components/counterCart';
@@ -12,8 +13,8 @@ import './cart-page.scss';
 
 
 export const CartPage = () => {
-
 	const items = useSelector(state => state.cart.itemsInCart);
+	const statusLoading = useSelector(state => state.order.ordersLoadingStatus);
 	const dispatch = useDispatch();
 	const navigate = useNavigate();
 
@@ -21,7 +22,14 @@ export const CartPage = () => {
 		if (items.length === 0) {
 			navigate("/empty");
 		}
-	}, [items])
+	}, []);
+
+	useEffect(() => {
+		if (statusLoading === 'fulfilled') {
+			dispatch(resetCart(items));
+			navigate("/payment");
+		}
+	}, [statusLoading])
 
 	const handleClick = (id) => {
 		dispatch(deleteItemsInCart(id));
@@ -66,6 +74,19 @@ export const CartPage = () => {
 	const totalOrderConvert = new Intl.NumberFormat('ru-RU', { style: 'currency', currency: 'RUB' }).format(totalOrder);
 
 
+	const sendOrder = () => {
+		const totalOrder = totalOrderConvert;
+		const order = items.map(item => {
+			return {
+				id: item.id,
+				name: item.name,
+				quantity: item.quantity
+			}
+		})
+		dispatch(addOrders({ order, totalOrder }));
+	}
+
+
 	return (
 		<div className="cart-page">
 			<Header />
@@ -85,7 +106,10 @@ export const CartPage = () => {
 						<div className="cart-page__text">Order Total :</div>
 						<div className="cart-page__total">{totalOrderConvert}</div>
 					</div>
-					<button className="btn btn__cart">Place Order</button>
+					<button
+						className="btn btn__cart"
+						onClick={sendOrder}
+					>Place Order</button>
 				</div>
 			</div>
 			<Footer />
