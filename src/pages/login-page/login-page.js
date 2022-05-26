@@ -11,7 +11,7 @@ import logo from "../../resources/img/logo.svg";
 import "./login-page.scss";
 
 
-export const LoginPage = () => {
+const LoginPage = () => {
 	const usersLogged = useSelector(state => state.users.usersLogged);
 	const userLogin = useSelector(state => state.users.userLogin);
 	const dispatch = useDispatch();
@@ -98,3 +98,5 @@ export const LoginPage = () => {
 		</div>
 	)
 }
+
+export default LoginPage;

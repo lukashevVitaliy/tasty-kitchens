@@ -11,7 +11,7 @@ import logo from "../../resources/img/logo.svg";
 import "./registration-page.scss";
 
 
-export const RegistrationPage = () => {
+const RegistrationPage = () => {
 	const dispatch = useDispatch();
 	const navigate = useNavigate();
 
@@ -106,3 +106,5 @@ export const RegistrationPage = () => {
 		</div>
 	)
 }
+
+export default RegistrationPage;

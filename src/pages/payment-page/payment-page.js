@@ -4,7 +4,7 @@ import { Header } from '../../components/header';
 import './payment-page.scss';
 import chech from '../../resources/icons/check_paym.svg';
 
-export const PaymentPage = () => {
+const PaymentPage = () => {
 	return (
 		<div className="payment-page">
 			<Header />
@@ -22,3 +22,5 @@ export const PaymentPage = () => {
 		</div>
 	)
 }
+
+export default PaymentPage;

@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom';
 import './cart-page.scss';
 
 
-export const CartPage = () => {
+const CartPage = () => {
 	const items = useSelector(state => state.cart.itemsInCart);
 	const statusLoading = useSelector(state => state.order.ordersLoadingStatus);
 	const dispatch = useDispatch();
@@ -116,3 +116,5 @@ export const CartPage = () => {
 		</div>
 	)
 }
+
+export default CartPage;

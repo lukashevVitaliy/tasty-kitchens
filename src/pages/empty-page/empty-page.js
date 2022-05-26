@@ -6,7 +6,7 @@ import './empty-page.scss';
 import dish from '../../resources/img/dish.png';
 
 
-export const EmptyPage = () => {
+const EmptyPage = () => {
 	return (
 		<div className="empty-page">
 			<Header />
@@ -24,3 +24,5 @@ export const EmptyPage = () => {
 		</div>
 	)
 }
+
+export default EmptyPage;

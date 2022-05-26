@@ -7,7 +7,7 @@ import { Footer } from '../../components/footer';
 import './restaurant-item-page.scss';
 
 
-export const RestaurantItemPage = () => {
+const RestaurantItemPage = () => {
 	const currentRestaurant = useSelector(state => state.restaurants.currentRestaurant.restaurant);
 	const dishes = useSelector(state => state.restaurants.currentRestaurant.restaurant.food_items);
 
@@ -22,3 +22,5 @@ export const RestaurantItemPage = () => {
 		</div>
 	)
 }
+
+export default RestaurantItemPage;

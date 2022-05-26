@@ -13,7 +13,7 @@ import { ErrorMessage } from '../../components/error-message';
 import './restaurants-page.scss';
 
 
-export const RestaurantsPage = () => {
+const RestaurantsPage = () => {
 	const { restaurantsLoadingStatus } = useSelector(state => state.restaurants);
 	const dispatch = useDispatch();
 
@@ -45,3 +45,5 @@ export const RestaurantsPage = () => {
 		</div>
 	)
 }
+
+export default RestaurantsPage;

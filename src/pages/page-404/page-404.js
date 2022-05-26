@@ -4,7 +4,7 @@ import './page-404.scss';
 import page404 from '../../resources/img/page-error.svg';
 
 
-export const Page404 = () => {
+const Page404 = () => {
 	return (
 		<div className="page-404">
 			<div className="page-404__wrap">
@@ -22,3 +22,5 @@ export const Page404 = () => {
 		</div>
 	)
 }
+
+export default Page404;
