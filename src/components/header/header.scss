@@ -1,6 +1,7 @@
 @import "../../styles/variables.scss";
 
 header {
+	position: relative;
 	min-height: 96px;
 	padding: 28px 0;
 	background: #f8fafc;
@@ -9,23 +10,6 @@ header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		&__logo {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			min-width: 240px;
-			img svg {
-				width: 49px;
-				height: 39px;
-				object-fit: cover;
-			}
-			span {
-				font-style: italic;
-				font-size: 24px;
-				line-height: 32px;
-				color: $color-active;
-			}
-		}
 		&__menu {
 			display: flex;
 			justify-content: space-between;
@@ -41,6 +25,17 @@ header {
 				line-height: 26px;
 				color: $main-color;
 			}
+		}
+	}
+}
+
+@media screen and (max-width: 575px) {
+	header {
+		min-height: 64px;
+		padding: 16px 0;
+		margin-bottom: 0;
+		.header__menu {
+			display: none;
 		}
 	}
 }

@@ -9,6 +9,10 @@
 	font-size: 12px;
 	line-height: 16px;
 	color: $white-color;
+	transition: 0.1s all;
+	&:hover {
+		background: $main-color;
+	}
 
 	&__cart {
 		margin: 0 0 0 auto;
@@ -44,5 +48,8 @@
 		border-radius: 8px;
 		color: $color-active;
 		text-transform: uppercase;
+		&:hover {
+			background: $white-color;
+		}
 	}
 }

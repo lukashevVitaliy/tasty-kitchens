@@ -31,6 +31,7 @@ export const CounterCart = ({ id, name, image_url, cost, quantity }) => {
 		dispatch(updateItemsInCartCount({ dish, qty }))
 	}
 
+
 	return (
 		<div className="counter">
 			<button

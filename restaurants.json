@@ -1,13 +1,6 @@
 {
 	"orders": [],
-	"users": [
-		{
-			"id": "538463bc-6ce7-4ddb-8e4c-e31a24f1dc99",
-			"name": "qwerty26",
-			"phone": 79814563128,
-			"password": "123456789"
-		}
-	],
+	"users": [],
 	"restaurants": [
 		{
 			"id": "20220101",
@@ -1281,7 +1274,7 @@
 					"name": "«ШАШЛЫК ИЗ БЕДРА ЦЫПЛЁНКА»",
 					"cost": 450,
 					"food_type": "ШАШЛЫКИ И БЛЮДА НА МАНГАЛЕ",
-					"image_url": "/restaurants/bahroma/0.jpg",
+					"image_url": "/restaurants/bahroma/0150.jpg",
 					"id": "0",
 					"rating": "★ ★ ★ ★ ★"
 				}
@@ -1859,7 +1852,7 @@
 					"name": "«ВИНЕГРЕТ С ЛИСИЧКАМИ»",
 					"cost": 430,
 					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
-					"image_url": "/restaurants/ferma/0.jpg",
+					"image_url": "/restaurants/ferma/0218.jpg",
 					"id": "0",
 					"rating": "★ ★ ★ ★ ★"
 				},
@@ -2065,7 +2058,7 @@
 					"name": "«БРУСКЕТТА С АВОКАДО, ЛОСОСЕМ, ЯЙЦОМ ПАШОТ И СОУСОМ ПЕСТО»",
 					"cost": 650,
 					"food_type": "САЛАТЫ ХОЛОДНЫЕ ЗАКУСКИ",
-					"image_url": "/restaurants/begemot/0.jpg",
+					"image_url": "/restaurants/begemot/0232.jpg",
 					"id": "0",
 					"rating": "★ ★ ★ ★ ★"
 				},

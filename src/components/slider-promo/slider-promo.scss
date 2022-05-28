@@ -5,10 +5,15 @@
 	&__image {
 		position: relative;
 		width: 100%;
-		min-height: 320px;
-		background: url("/resources/img/slider.jpg") center / cover no-repeat;
+		min-height: 188px;
 		z-index: -1;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
 	}
+
 	&__info {
 		position: absolute;
 		top: 50%;
@@ -34,6 +39,7 @@
 	}
 	&__contacts {
 		display: flex;
+		align-items: center;
 		img {
 			width: 24px;
 			height: 24px;
@@ -65,4 +71,98 @@
 	width: 18px;
 	height: 18px;
 	background: rgba(255, 255, 255, 0.8);
+}
+
+// ------ media styles ------
+
+@media screen and (max-width: 767px) {
+	.slider-promo {
+		margin-bottom: 48px;
+		&__image {
+			height: 254px;
+		}
+		&__info {
+			max-width: 248px;
+			min-height: 120px;
+			padding: 15px 15px 15px 0;
+		}
+		&__title {
+			font-size: 26px;
+			line-height: 36px;
+			letter-spacing: 0.07px;
+			margin-bottom: 6px;
+		}
+		&__desc {
+			font-size: 12px;
+			line-height: 18px;
+			margin-bottom: 6px;
+		}
+		&__contacts {
+			img {
+				width: 17px;
+				height: 17px;
+			}
+			span {
+				font-size: 12px;
+				margin-left: 6px;
+			}
+		}
+		.container {
+			width: 100% !important;
+			padding: 0;
+		}
+	}
+
+	.swiper-horizontal > .swiper-pagination-bullets,
+	.swiper-pagination-bullets.swiper-pagination-horizontal {
+		bottom: 50px;
+	}
+
+	.swiper-pagination-bullet {
+		width: 8px;
+		height: 8px;
+	}
+	.swiper-pagination-bullet-active {
+		width: 12px;
+		height: 12px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.slider-promo {
+		margin-bottom: 24px;
+		&__image {
+			height: 188px;
+		}
+		&__info {
+			max-width: 148px;
+			min-height: 72px;
+			padding: 15px 15px 15px 0;
+		}
+		&__title {
+			font-size: 16px;
+			line-height: 24px;
+			margin-bottom: 4px;
+		}
+		&__desc {
+			font-size: 8px;
+			line-height: 12px;
+			margin-bottom: 4px;
+		}
+		&__contacts {
+			img {
+				width: 10px;
+				height: 10px;
+			}
+			span {
+				font-size: 8px;
+				margin-left: 4px;
+			}
+		}
+	}
+
+	.swiper-horizontal > .swiper-pagination-bullets,
+	.swiper-pagination-bullets.swiper-pagination-horizontal {
+		bottom: 30px;
+	}
 }

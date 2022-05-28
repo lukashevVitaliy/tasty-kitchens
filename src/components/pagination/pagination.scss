@@ -24,3 +24,23 @@
 		color: $main-color;
 	}
 }
+
+// ------ media styles ------
+
+@media screen and (max-width: 767px) {
+	.pagination {
+		width: 125px;
+		height: 24px;
+		margin: 0 auto 48px;
+		&__arrow-left,
+		&__arrow-right {
+			width: 24px;
+			height: 24px;
+			font-size: 12px;
+		}
+		&__num {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+}

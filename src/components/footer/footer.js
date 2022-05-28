@@ -12,7 +12,9 @@ export const Footer = () => {
 		<footer>
 			<div className="footer">
 				<div className="footer__logo">
-					<img src={logo} alt="logo" />
+					<div>
+						<img src={logo} alt="logo" />
+					</div>
 					<span>Tasty Kitchens</span>
 				</div>
 				<p className="footer__info">The only thing we are serious about is food. Contact us on</p>

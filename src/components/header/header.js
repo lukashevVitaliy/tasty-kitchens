@@ -1,9 +1,11 @@
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 
 import { logout } from '../../store/reducers/userSlice';
-import logo from '../../resources/img/logo.svg';
+import { MenuBurger } from '../menu-burger';
+import { LogoTop } from '../logo-top';
+
 import './header.scss';
 
 
@@ -16,8 +18,7 @@ export const Header = () => {
 		{ value: 'Cart', to: '/cart' }
 	]
 
-	const handleLogout = (e) => {
-		e.preventDefault();
+	const handleLogout = () => {
 		dispatch(logout());
 		navigate('/');
 	}
@@ -26,10 +27,7 @@ export const Header = () => {
 		<header>
 			<div className="container">
 				<div className="header">
-					<Link to="/restaurants" className="header__logo">
-						<img src={logo} alt="logo" />
-						<span>Tasty Kitchens</span>
-					</Link>
+					<LogoTop />
 					<nav className="header__menu">
 						<ul className="header__list">
 							{
@@ -43,9 +41,10 @@ export const Header = () => {
 						</ul>
 						<button
 							className="btn"
-							onClick={(e) => handleLogout(e)}
+							onClick={handleLogout}
 						>Logout</button>
 					</nav>
+					<MenuBurger />
 				</div>
 			</div>
 		</header>

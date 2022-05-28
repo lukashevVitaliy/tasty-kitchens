@@ -43,9 +43,9 @@ export const RestaurantsList = () => {
 
 	return (
 		<>
-			<div className="restaurants-list">
+			<ul className="restaurants-list">
 				{elements}
-			</div>
+			</ul>
 			<Pagination
 				page={page}
 				totalPages={totalPages}

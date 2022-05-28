@@ -26,3 +26,11 @@
 .custom-select__indicator-separator.css-1okebmr-indicatorSeparator {
 	display: none;
 }
+
+// ------ media styles ------
+
+@media screen and (max-width: 767px) {
+	.sort-panel {
+		margin-left: 22px;
+	}
+}

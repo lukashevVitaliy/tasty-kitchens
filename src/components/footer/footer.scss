@@ -7,7 +7,7 @@ footer {
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
-		max-width: 480px;
+		width: 100%;
 		min-height: 424px;
 		padding: 97px 0;
 		margin: 0 auto;
@@ -15,9 +15,13 @@ footer {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			img svg {
+			div {
 				width: 49px;
 				height: 39px;
+			}
+			img svg {
+				width: 100%;
+				height: 100%;
 				object-fit: cover;
 			}
 			span {
@@ -48,6 +52,63 @@ footer {
 				height: 48px;
 				object-fit: cover;
 				color: $white-color;
+			}
+		}
+	}
+}
+
+// ------ media styles ------
+
+@media screen and (max-width: 767px) {
+	footer {
+		.footer {
+			min-height: 340px;
+			padding: 72px 0;
+			&__logo {
+				div {
+					width: 35px;
+					height: 28px;
+				}
+				span {
+					font-size: 20px;
+					line-height: 24px;
+					margin-left: 12px;
+				}
+			}
+			&__info {
+				font-size: 19px;
+				line-height: 29px;
+			}
+			&__social {
+				&-item:not(:last-child) {
+					margin-right: 36px;
+				}
+				&-link svg {
+					width: 36px;
+					height: 36px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 575px) {
+	footer {
+		.footer {
+			min-height: 256px;
+			padding: 48px 0;
+			&__info {
+				font-size: 14px;
+				line-height: 24px;
+			}
+			&__social {
+				&-item:not(:last-child) {
+					margin-right: 24px;
+				}
+				&-link svg {
+					width: 24px;
+					height: 24px;
+				}
 			}
 		}
 	}

@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import { fetchRestaurants } from '../../store/reducers/restaurantsSlice';
 import { Header } from '../../components/header';
@@ -31,8 +32,8 @@ const RestaurantsPage = () => {
 	return (
 		<div className="restaurants-page">
 			<Header />
+			<SliderPromo />
 			<div className="container">
-				<SliderPromo />
 				<h2 className="restaurants-page__title">Popular Restaurants</h2>
 				<div className="restaurants-page__wrap">
 					<p className="restaurants-page__subtitle">Select Your favourite restaurant special dish and make your day happy...</p>
