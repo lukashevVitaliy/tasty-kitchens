@@ -109,14 +109,6 @@ const CartPage = () => {
 						<p className="cart-page__title-prices">Price</p>
 						{/* Add Item */}
 
-						{/* <TransitionGroup component="ul" >
-							{products.map(p => p.tmpl)}
-						</TransitionGroup> */}
-
-						{/* <ul className="cart-page__list">
-							{products.map(p => p.tmpl)}
-						</ul> */}
-
 					</div>
 					<TransitionGroup component="ul" className="cart-page__list">
 						{products.map(p => p.tmpl)}

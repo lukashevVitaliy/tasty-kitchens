@@ -3,19 +3,23 @@
 .login-page {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	align-items: center;
 	height: 100vh;
+
 	&__autorization {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		display: block;
+		max-width: 456px;
+		min-height: 296px;
+		margin: 0 auto;
+		background: $white-color;
 	}
 	&__form {
-		width: 456px;
-		min-height: 573px;
 		background: #fefeff;
 		box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
 		border-radius: 8px;
 		padding: 48px;
+		width: 100%;
+		height: 100%;
 	}
 	&__logo {
 		display: flex;
@@ -64,22 +68,89 @@
 		border-radius: 2px;
 		margin-bottom: 24px;
 		text-transform: lowercase;
+		&:focus {
+			outline-style: double;
+			outline-color: $grey-color;
+		}
 	}
 	#name {
 		text-transform: lowercase;
 	}
 
-	&__bg {
-		background: url("/resources/bg/login_bg.jpg") center / cover no-repeat;
+	&__image {
+		width: 100%;
+		height: 100vh;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
 	}
 
 	.error {
 		position: relative;
-		bottom: 24px;
+		bottom: 20px;
 		left: 0;
 		color: $error-color;
 		font-weight: 400;
 		font-size: 14px;
 		line-height: 18px;
+	}
+}
+
+// ------ media styles ------
+
+@media screen and (max-width: 992px) {
+	.login-page {
+		position: relative;
+		grid-template-columns: 1fr;
+		&__autorization {
+			z-index: 2;
+		}
+		&__image {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.login-page {
+		overflow: hidden;
+		&__autorization {
+			width: 100%;
+			height: 100%;
+			z-index: 0;
+		}
+		&__form {
+			padding: 296px 15px 48px;
+			box-shadow: none;
+			border-radius: 0;
+		}
+		&__logo {
+			display: none;
+		}
+		&__title {
+			font-size: 24px;
+			line-height: 32px;
+			text-align: left;
+			margin-bottom: 48px;
+		}
+		&__image {
+			position: absolute;
+			top: -38px;
+			right: -83px;
+			width: 387px;
+			height: 387px;
+			img {
+				border-radius: 100%;
+			}
+		}
+		.error {
+			bottom: 24px;
+			font-size: 12px;
+			line-height: 16px;
+		}
 	}
 }

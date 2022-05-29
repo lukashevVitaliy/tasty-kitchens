@@ -26,7 +26,7 @@
 
 // ------ media styles ------
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	.restaurants-page {
 		&__title {
 			font-size: 30px;
@@ -48,7 +48,7 @@
 	}
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
 	.restaurants-page {
 		&__title {
 			font-size: 24px;

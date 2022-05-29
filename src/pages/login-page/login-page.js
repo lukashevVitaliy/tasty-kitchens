@@ -8,6 +8,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { loggedUsers, loginUser } from '../../store/reducers/userSlice';
 
 import logo from "../../resources/img/logo.svg";
+import bg from "../../resources/bg/login_bg.jpg"
 import "./login-page.scss";
 
 
@@ -94,7 +95,9 @@ const LoginPage = () => {
 				</form>
 
 			</div>
-			<div className="login-page__bg"></div>
+			<div className="login-page__image">
+				<img src={bg} alt="image" />
+			</div>
 		</div>
 	)
 }

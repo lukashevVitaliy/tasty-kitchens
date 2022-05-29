@@ -17,7 +17,7 @@ export const Footer = () => {
 					</div>
 					<span>Tasty Kitchens</span>
 				</div>
-				<p className="footer__info">The only thing we are serious about is food. Contact us on</p>
+				<p className="footer__info">The only thing we are serious about is food.<br />Contact us on</p>
 				<ul className="footer__social">
 					<li className="footer__social-item">
 						<a href="#" className="footer__social-link"><FaPinterestSquare /></a>
