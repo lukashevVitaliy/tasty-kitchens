@@ -2,12 +2,12 @@
 
 .btn {
 	display: block;
-	padding: 8px 16px;
+	padding: 0.5rem 1rem;
 	background: $color-active;
-	border-radius: 8px;
+	border-radius: 0.5rem;
 	font-weight: 500;
-	font-size: 12px;
-	line-height: 16px;
+	font-size: 0.75rem;
+	line-height: 1rem;
 	color: $white-color;
 	transition: 0.1s all;
 	&:hover {
@@ -28,24 +28,24 @@
 		width: 131px;
 	}
 	&__home {
-		width: 123px;
+		width: 7.6875rem;
 		text-align: center;
 	}
 
 	&__empty {
-		width: 93px;
+		width: 5.8125rem;
 	}
 	&__form {
 		width: 100%;
 		font-weight: 700;
-		font-size: 14px;
-		line-height: 24px;
+		font-size: 0.875rem;
+		line-height: 1.5rem;
 		letter-spacing: 1.7px;
 	}
 	&__menu {
 		background: $white-color;
 		border: 2px solid $color-active;
-		border-radius: 8px;
+		border-radius: 0.5rem;
 		color: $color-active;
 		text-transform: uppercase;
 		&:hover {

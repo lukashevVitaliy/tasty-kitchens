@@ -8,6 +8,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { addNewUser } from '../../store/reducers/userSlice';
 
 import logo from "../../resources/img/logo.svg";
+import bg from "../../resources/bg/login_bg.jpg"
 import "./registration-page.scss";
 
 
@@ -99,10 +100,13 @@ const RegistrationPage = () => {
 					<button
 						className="btn btn__form"
 						type="submit"
+						style={{ marginBottom: "15px" }}
 					>Registration</button>
 				</form>
 			</div>
-			<div className="registration-page__bg"></div>
+			<div className="registration-page__image">
+				<img src={bg} alt="image" />
+			</div>
 		</div>
 	)
 }

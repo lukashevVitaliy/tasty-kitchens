@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import { fetchRestaurants } from '../../store/reducers/restaurantsSlice';
 import { Header } from '../../components/header';

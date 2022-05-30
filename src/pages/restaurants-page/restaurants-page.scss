@@ -3,14 +3,14 @@
 .restaurants-page {
 	&__title {
 		@extend %h2-title;
-		padding-top: 64px;
-		margin-bottom: 8px;
+		padding-top: 4rem;
+		margin-bottom: 0.5rem;
 	}
 	&__wrap {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin-bottom: 24px;
+		margin-bottom: 1.5rem;
 	}
 	&__subtitle {
 		font-weight: 500;
@@ -20,47 +20,47 @@
 		width: 100%;
 		height: 1px;
 		background: #cbd2d9;
-		margin-bottom: 48px;
+		margin-bottom: 3rem;
 	}
 }
 
 // ------ media styles ------
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
 	.restaurants-page {
 		&__title {
-			font-size: 30px;
-			line-height: 40px;
-			padding-top: 44px;
-			margin-bottom: 10px;
+			font-size: 1.875rem;
+			line-height: 2.5rem;
+			padding-top: 2.75rem;
+			margin-bottom: 0.625rem;
 		}
 		&__wrap {
 			flex-wrap: wrap;
-			margin-bottom: 24px;
+			margin-bottom: 1.5rem;
 		}
 		&__subtitle {
-			font-size: 14px;
-			margin-bottom: 16px;
+			font-size: 0.875rem;
+			margin-bottom: 1rem;
 		}
 		&__line {
-			margin-bottom: 24px;
+			margin-bottom: 1.5rem;
 		}
 	}
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 36rem) {
 	.restaurants-page {
 		&__title {
-			font-size: 24px;
-			line-height: 32px;
-			padding-top: 24px;
-			margin-bottom: 12px;
+			font-size: 1.5rem;
+			line-height: 2rem;
+			padding-top: 1.5rem;
+			margin-bottom: 0.75rem;
 		}
 		&__wrap {
-			margin-bottom: 32px;
+			margin-bottom: 2rem;
 		}
 		&__subtitle {
-			font-size: 12px;
+			font-size: 0.75rem;
 		}
 		&__line {
 			display: none;

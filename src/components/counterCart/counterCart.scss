@@ -4,24 +4,24 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 74px;
-	height: 24px;
+	width: 4.625rem;
+	height: 1.5rem;
 	padding: 3px;
 	&__inc,
 	&__dec {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 18px;
-		height: 18px;
+		width: 1.125rem;
+		height: 1.125rem;
 		border: 1px solid $main-color;
-		border-radius: 4px;
-		font-size: 14px;
+		border-radius: 0.25rem;
+		font-size: 0.875rem;
 	}
 	&__num {
 		font-weight: 500 !important;
-		font-size: 16px !important;
-		line-height: 24px !important;
+		font-size: 1rem !important;
+		line-height: 1.5rem !important;
 		color: #475569 !important;
 		margin-bottom: 0 !important;
 	}

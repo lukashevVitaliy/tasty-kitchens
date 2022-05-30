@@ -1,11 +1,11 @@
 @import "../../styles/variables.scss";
 
 .slider-promo {
-	margin-bottom: 64px;
+	margin-bottom: 4rem;
 	&__image {
 		position: relative;
 		width: 100%;
-		min-height: 188px;
+		min-height: 11.75rem;
 		z-index: -1;
 		img {
 			width: 100%;
@@ -23,88 +23,88 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		max-width: 346px;
-		min-height: 166px;
-		padding: 15px;
+		max-width: 21.625rem;
+		min-height: 10.375rem;
+		padding: 0.9375rem;
 	}
 	&__title {
 		@extend %h1-title;
 		color: #57221a;
-		margin-bottom: 8px;
+		margin-bottom: 0.5rem;
 	}
 	&__desc {
 		font-weight: 500;
 		color: $white-color;
-		margin-bottom: 8px;
+		margin-bottom: 0.5rem;
 	}
 	&__contacts {
 		display: flex;
 		align-items: center;
 		img {
-			width: 24px;
-			height: 24px;
+			width: 1.5rem;
+			height: 1.5rem;
 			object-fit: cover;
 		}
 		span {
 			font-style: italic;
 			font-weight: 400;
 			color: $white-color;
-			margin-left: 8px;
+			margin-left: 0.5rem;
 		}
 	}
 }
 
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-	bottom: 74px;
+	bottom: 4.625rem;
 	left: 0;
 	width: 100%;
 }
 
 .swiper-pagination-bullet {
-	width: 12px;
-	height: 12px;
+	width: 0.75rem;
+	height: 0.75rem;
 	background: $white-color;
 	vertical-align: middle;
 }
 .swiper-pagination-bullet-active {
-	width: 18px;
-	height: 18px;
+	width: 1.125rem;
+	height: 1.125rem;
 	background: rgba(255, 255, 255, 0.8);
 }
 
 // ------ media styles ------
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
 	.slider-promo {
-		margin-bottom: 48px;
+		margin-bottom: 3rem;
 		&__image {
-			height: 254px;
+			height: 15.875rem;
 		}
 		&__info {
-			max-width: 248px;
-			min-height: 120px;
-			padding: 15px 15px 15px 0;
+			max-width: 15.5rem;
+			min-height: 7.5rem;
+			padding: 0.9375rem 0.9375rem 0.9375rem 0;
 		}
 		&__title {
-			font-size: 26px;
-			line-height: 36px;
+			font-size: 1.625rem;
+			line-height: 2.25rem;
 			letter-spacing: 0.07px;
-			margin-bottom: 6px;
+			margin-bottom: 0.375rem;
 		}
 		&__desc {
-			font-size: 12px;
-			line-height: 18px;
-			margin-bottom: 6px;
+			font-size: 0.75rem;
+			line-height: 1.125rem;
+			margin-bottom: 0.375rem;
 		}
 		&__contacts {
 			img {
-				width: 17px;
-				height: 17px;
+				width: 1.0625rem;
+				height: 1.0625rem;
 			}
 			span {
-				font-size: 12px;
-				margin-left: 6px;
+				font-size: 0.75rem;
+				margin-left: 0.375rem;
 			}
 		}
 		.container {
@@ -115,54 +115,54 @@
 
 	.swiper-horizontal > .swiper-pagination-bullets,
 	.swiper-pagination-bullets.swiper-pagination-horizontal {
-		bottom: 50px;
+		bottom: 3.125rem;
 	}
 
 	.swiper-pagination-bullet {
-		width: 8px;
-		height: 8px;
+		width: 0.5rem;
+		height: 0.5rem;
 	}
 	.swiper-pagination-bullet-active {
-		width: 12px;
-		height: 12px;
+		width: 0.75rem;
+		height: 0.75rem;
 	}
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 36rem) {
 	.slider-promo {
-		margin-bottom: 24px;
+		margin-bottom: 1.5rem;
 		&__image {
-			height: 188px;
+			height: 11.75rem;
 		}
 		&__info {
-			max-width: 148px;
-			min-height: 72px;
-			padding: 15px 15px 15px 0;
+			max-width: 9.25rem;
+			min-height: 4.5rem;
+			padding: 0.9375rem 0.9375rem 0.9375rem 0;
 		}
 		&__title {
-			font-size: 16px;
-			line-height: 24px;
-			margin-bottom: 4px;
+			font-size: 1rem;
+			line-height: 1.5rem;
+			margin-bottom: 0.25rem;
 		}
 		&__desc {
-			font-size: 8px;
-			line-height: 12px;
-			margin-bottom: 4px;
+			font-size: 0.5rem;
+			line-height: 0.75rem;
+			margin-bottom: 0.25rem;
 		}
 		&__contacts {
 			img {
-				width: 10px;
-				height: 10px;
+				width: 0.625rem;
+				height: 0.625rem;
 			}
 			span {
-				font-size: 8px;
-				margin-left: 4px;
+				font-size: 0.5rem;
+				margin-left: 0.25rem;
 			}
 		}
 	}
 
 	.swiper-horizontal > .swiper-pagination-bullets,
 	.swiper-pagination-bullets.swiper-pagination-horizontal {
-		bottom: 30px;
+		bottom: 1.875rem;
 	}
 }

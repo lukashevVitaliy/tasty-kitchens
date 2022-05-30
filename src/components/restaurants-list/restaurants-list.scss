@@ -2,23 +2,23 @@
 
 .restaurants-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(290px, 350px));
+	grid-template-columns: repeat(auto-fill, minmax(18.125rem, 21.875rem));
 	grid-auto-rows: 1fr;
-	grid-gap: 30px;
+	grid-gap: 1.875rem;
 	justify-content: space-around;
 	align-items: center;
-	margin-bottom: 64px;
+	margin-bottom: 4rem;
 }
 
 // ------ media styles ------
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
 	.restaurants-list {
-		margin-bottom: 48px;
+		margin-bottom: 3rem;
 	}
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 36rem) {
 	.restaurants-list {
-		margin-bottom: 32px;
+		margin-bottom: 2rem;
 	}
 }

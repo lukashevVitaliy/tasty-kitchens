@@ -2,29 +2,29 @@
 
 .restaurant-menu {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(290px, 490px));
-	grid-auto-rows: minmax(150px, auto);
-	grid-gap: 30px;
+	grid-template-columns: repeat(auto-fill, minmax(18.125rem, 30.625rem));
+	grid-auto-rows: minmax(9.375rem, auto);
+	grid-gap: 1.875rem;
 	justify-content: space-between;
-	margin-bottom: 64px;
+	margin-bottom: 4rem;
 }
 
 // ------ media styles ------
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 65rem) {
 	.restaurant-menu {
 		justify-content: center;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
 	.restaurant-menu {
-		margin-bottom: 48px;
+		margin-bottom: 3rem;
 	}
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 26.5625rem) {
 	.restaurant-menu {
-		grid-gap: 24px;
-		margin-bottom: 32px;
+		grid-gap: 1.5rem;
+		margin-bottom: 2rem;
 	}
 }

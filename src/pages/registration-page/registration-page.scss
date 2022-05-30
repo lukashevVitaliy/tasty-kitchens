@@ -3,82 +3,165 @@
 .registration-page {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	align-items: center;
 	height: 100vh;
 	&__autorization {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		width: 100%;
+		height: 100%;
 	}
 	&__form {
-		width: 456px;
-		min-height: 523px;
+		width: 28.5rem;
+		min-height: 18.5rem;
 		background: #fefeff;
-		box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
-		border-radius: 8px;
-		padding: 48px;
+		box-shadow: 0px 0.5rem 2.5rem rgba(7, 7, 7, 0.08);
+		border-radius: 0.5rem;
+		padding: 3rem;
 	}
 	&__logo {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		margin: 0 auto;
-		max-width: 172px;
-		min-height: 75px;
-
+		max-width: 10.75rem;
+		min-height: 4.6875rem;
 		img svg {
-			width: 49px;
-			height: 39px;
+			width: 3.0625rem;
+			height: 2.4375rem;
 			object-fit: cover;
 		}
 		p {
 			font-style: italic;
 			font-weight: 700;
-			font-size: 24px;
-			line-height: 32px;
+			font-size: 1.5rem;
+			line-height: 2rem;
 			color: $color-active;
-			margin-bottom: 30px;
+			margin-bottom: 1.875rem;
 		}
 	}
 	&__title {
 		@extend %h3-title;
 		text-align: center;
-		margin-bottom: 65px;
+		margin-bottom: 4.0625rem;
 	}
 	label {
-		font-size: 12px;
-		line-height: 16px;
-		letter-spacing: 0.01em;
+		font-size: 0.75rem;
+		line-height: 1rem;
+		letter-spacing: 0.01rem;
 		text-transform: uppercase;
 		color: #475569;
-		margin-bottom: 8px;
+		margin-bottom: 0.5rem;
 	}
 	input {
 		position: relative;
 		width: 100%;
-		padding: 8px 18px;
+		padding: 0.5rem 1.125rem;
 		font-weight: 400;
-		font-size: 14px;
+		font-size: 0.875rem;
 		color: #171f46;
 		background: #e2e8f0;
 		border: none;
-		border-radius: 2px;
-		margin-bottom: 24px;
+		border-radius: 0.125rem;
+		margin-bottom: 1.5rem;
+		text-transform: lowercase;
+		&:focus {
+			outline-style: double;
+			outline-color: $grey-color;
+		}
 	}
 	#name {
 		text-transform: lowercase;
 	}
-
-	&__bg {
-		background: url("/resources/bg/login_bg.jpg") center / cover no-repeat;
+	&__image {
+		width: 100%;
+		height: 100vh;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
 	}
 
 	.error {
 		position: relative;
-		bottom: 24px;
+		bottom: 1.25rem;
 		left: 0;
 		color: $error-color;
 		font-weight: 400;
-		font-size: 14px;
-		line-height: 18px;
+		font-size: 0.875rem;
+		line-height: 1.125rem;
+	}
+}
+
+// ------ media styles ------
+
+@media screen and (max-width: 62rem) {
+	.registration-page {
+		position: relative;
+		grid-template-columns: 1fr;
+		&__autorization {
+			z-index: 2;
+		}
+		&__image {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 36rem) {
+	.registration-page {
+		overflow: hidden;
+		&__autorization {
+			width: 80%;
+			margin: 0 auto;
+		}
+		&__form {
+			width: 26rem;
+			padding: 3rem 1.5rem;
+		}
+	}
+}
+
+@media screen and (max-width: 26.5625rem) {
+	.registration-page {
+		overflow: hidden;
+		&__autorization {
+			width: 100%;
+			z-index: 0;
+		}
+		&__form {
+			padding: 18.5rem 0 0;
+			width: 18.125rem;
+			box-shadow: none;
+			border-radius: 0;
+		}
+		&__logo {
+			display: none;
+		}
+		&__title {
+			font-size: 1.5rem;
+			line-height: 2rem;
+			text-align: left;
+			margin-bottom: 3rem;
+		}
+		&__image {
+			position: absolute;
+			top: -2.375rem;
+			right: -5.1875rem;
+			width: 24.1875rem;
+			height: 24.1875rem;
+			img {
+				border-radius: 100%;
+			}
+		}
+		.error {
+			bottom: 1.5rem;
+			font-size: 0.75rem;
+			line-height: 1rem;
+		}
 	}
 }

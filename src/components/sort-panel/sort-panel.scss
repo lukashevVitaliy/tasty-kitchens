@@ -8,17 +8,17 @@
 	content: "";
 	position: absolute;
 	top: 50%;
-	left: -22px;
+	left: -1.375rem;
 	transform: translateY(-50%);
-	width: 24px;
-	height: 24px;
+	width: 1.5rem;
+	height: 1.5rem;
 	background: url("/resources/icons/sort_label.svg") center/cover no-repeat;
 }
 
 .custom-select__control.css-1s2u09g-control {
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 1rem;
+	line-height: 1.5rem;
 	border: none;
 	cursor: pointer;
 }
@@ -29,8 +29,8 @@
 
 // ------ media styles ------
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
 	.sort-panel {
-		margin-left: 22px;
+		margin-left: 1.375rem;
 	}
 }
